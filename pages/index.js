@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-import websiteLogo from "/public/images/logo.png";
+
 import shapeImage1 from "/public/images/shape/shape-1.svg";
 import shapeImage2 from "/public/images/shape/shape-2.svg";
 import shapeImage3 from "/public/images/shape/shape-3.svg";
@@ -17,23 +17,7 @@ import shapeImage11 from "/public/images/shape/shape-1.svg";
 import headerImage from "/public/images/header-image.svg";
 import aboutImage from "/public/images/about.svg";
 
-import serviceImageSoft from "/public/images/s.png";
-import serviceImageApp from "/public/images/w.png";
-
 import projectPos from "/public/images/pos.jpg";
-import techImg from "/public/images/tech/program11.jpg";
-import techImg1 from "/public/images/tech/program14.png";
-import techImg2 from "/public/images/tech/program3.jpg";
-import techImg3 from "/public/images/tech/program10.jpg";
-import techImg4 from "/public/images/tech/program7.jpg";
-import techImg5 from "/public/images/tech/vue.png";
-import techImg6 from "/public/images/tech/program15.png";
-import techImg7 from "/public/images/tech/program17.png";
-import techImg8 from "/public/images/tech/program16.jpg";
-import techImg9 from "/public/images/tech/next.svg";
-import techImg10 from "/public/images/tech/tailwind.webp";
-import techImg11 from "/public/images/tech/program4.png";
-
 import teamImg1 from "/public/images/team/team1.jpg";
 import teamImg2 from "/public/images/team/team2.jpg";
 import teamImg3 from "/public/images/team/team3.jpg";
@@ -80,79 +64,6 @@ export default function Home() {
         {/*--------- HEADER PART Start------------ */}
 
         <section className="header_area">
-          <div className="navbar-area bg-white">
-            <div className="container relative">
-              <div className="row items-center">
-                <div className="w-full">
-                  <nav className="flex items-center justify-between py-4 navbar navbar-expand-lg">
-                    <a className="navbar-brand mr-5" href="/">
-                      <Image src={websiteLogo} alt="logo" width={150} height={140} />
-                    </a>
-                    <button
-                      className="block navbar-toggler focus:outline-none lg:hidden"
-                      type="button"
-                      data-toggle="collapse"
-                      data-target="#navbarOne"
-                      aria-controls="navbarOne"
-                      aria-expanded="false"
-                      aria-label="Toggle navigation"
-                    >
-                      <span className="toggler-icon"></span>
-                      <span className="toggler-icon"></span>
-                      <span className="toggler-icon"></span>
-                    </button>
-
-                    <div
-                      className="absolute left-0 z-20 hidden w-full px-5 py-3 duration-300 bg-white lg:w-auto  navbar-collapse lg:block top-full mt-full lg:static lg:bg-transparent shadow lg:shadow-none"
-                      id="navbarOne"
-                    >
-                      <ul
-                        id="nav"
-                        className="items-center content-start mr-auto lg:justify-end navbar-nav lg:flex"
-                      >
-                        <li className="nav-item ml-5 lg:ml-11">
-                          <a className="page-scroll active" href="#home">
-                            Home
-                          </a>
-                        </li>
-                        <li className="nav-item ml-5 lg:ml-11">
-                          <a className="page-scroll" href="#about">
-                            About
-                          </a>
-                        </li>
-                        <li className="nav-item ml-5 lg:ml-11">
-                          <a className="page-scroll" href="#services">
-                            Services
-                          </a>
-                        </li>
-                        <li className="nav-item ml-5 lg:ml-11">
-                          <a className="page-scroll" href="#work">
-                            Projects
-                          </a>
-                        </li>
-                        <li className="nav-item ml-5 lg:ml-11">
-                          <a className="page-scroll" href="#pricing">
-                            Pricing
-                          </a>
-                        </li>
-                        <li className="nav-item ml-5 lg:ml-11">
-                          <a className="page-scroll" href="#team">
-                            Teams
-                          </a>
-                        </li>
-                        <li className="nav-item ml-5 lg:ml-11">
-                          <a className="page-scroll" href="#contact">
-                            Contact
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                  </nav>
-                </div>
-              </div>
-            </div>
-          </div>
-
           <div
             id="home"
             className="header_hero bg-gray relative z-10 overflow-hidden lg:flex items-center"
