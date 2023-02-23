@@ -1,3 +1,51 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Work Process css */
+.services_icon {
+  position: relative;
+}
+.header_hero {
+  background: #f5f5fc;
+}
+
+.service_svg {
+  position: absolute;
+  top: 38px;
+  right: 36px;
+  z-index: 5;
+}
+
+.services_icon {
+  position: relative;
+}
+.main_icon {
+  position: relative;
+}
+
+/*............. Navbar........  css */
+.mobile-menu {
+  position: absolute;
+  top: 0;
+  left: 450px;
+}
+#nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+@media all and (max-width: 754px) {
+  .middle {
+    width: 95%;
+  }
+}
+
+@media all and (max-width: 506px) {
+  .mobile-menu {
+    position: absolute;
+    top: 0;
+    left: 350px;
+  }
+}

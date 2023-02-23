@@ -66,7 +66,7 @@ function Contact() {
                         <div className="w-full">
                           <div className="mx-3">
                             <div className="single_form mt-8">
-                              <button type="submit" className="main-btn contact-btn">
+                              <button type="submit" className="main-btn contact-btn bg-red-400">
                                 Submit
                               </button>
                             </div>

@@ -5,7 +5,7 @@ function Projects() {
   return (
     <div>
       <>
-        <section id="work" className="work_area bg-gray pt-120 pb-120">
+        <section id="projects" className="work_area bg-gray pt-120 pb-120">
           <div className="container">
             <div className="row justify-center">
               <div className="w-ull lg:w-1/2">
@@ -27,7 +27,15 @@ function Projects() {
                       </div>
                       <div className="work_content">
                         <a href="#" className="arrow">
-                          <i className="lni lni-chevron-right"></i>
+                          <svg
+                            width="24"
+                            height="24"
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                          >
+                            <path d="M4 .755l14.374 11.245-14.374 11.219.619.781 15.381-12-15.391-12-.609.755z" />
+                          </svg>
                         </a>
                         <h4 className="work_title text-xl md:text-xl">
                           <a href="#">POS SYSTEM</a>
@@ -45,7 +53,15 @@ function Projects() {
                       </div>
                       <div className="work_content">
                         <a href="#" className="arrow">
-                          <i className="lni lni-chevron-right"></i>
+                          <svg
+                            width="24"
+                            height="24"
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                          >
+                            <path d="M4 .755l14.374 11.245-14.374 11.219.619.781 15.381-12-15.391-12-.609.755z" />
+                          </svg>
                         </a>
                         <h4 className="work_title text-xl md:text-xl">
                           <a href="#">POS SYSTEM</a>
@@ -63,7 +79,15 @@ function Projects() {
                       </div>
                       <div className="work_content">
                         <a href="#" className="arrow">
-                          <i className="lni lni-chevron-right"></i>
+                          <svg
+                            width="24"
+                            height="24"
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                          >
+                            <path d="M4 .755l14.374 11.245-14.374 11.219.619.781 15.381-12-15.391-12-.609.755z" />
+                          </svg>
                         </a>
                         <h4 className="work_title text-xl md:text-xl">
                           <a href="#">POS SYSTEM</a>
@@ -81,7 +105,15 @@ function Projects() {
                       </div>
                       <div className="work_content">
                         <a href="#" className="arrow">
-                          <i className="lni lni-chevron-right"></i>
+                          <svg
+                            width="24"
+                            height="24"
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                          >
+                            <path d="M4 .755l14.374 11.245-14.374 11.219.619.781 15.381-12-15.391-12-.609.755z" />
+                          </svg>
                         </a>
                         <h4 className="work_title text-xl md:text-xl">
                           <a href="#">POS SYSTEM</a>
@@ -99,7 +131,15 @@ function Projects() {
                       </div>
                       <div className="work_content">
                         <a href="#" className="arrow">
-                          <i className="lni lni-chevron-right"></i>
+                          <svg
+                            width="24"
+                            height="24"
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                          >
+                            <path d="M4 .755l14.374 11.245-14.374 11.219.619.781 15.381-12-15.391-12-.609.755z" />
+                          </svg>
                         </a>
                         <h4 className="work_title text-xl md:text-xl">
                           <a href="#">POS SYSTEM</a>
