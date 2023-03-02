@@ -5,12 +5,13 @@ import websiteLogo from "/public/images/logo.png";
 import { Disclosure, Menu, Transition } from "@headlessui/react";
 
 const navigation = [
-  { name: "Home", href: "#home", current: true },
-  { name: "About", href: "#about", current: false },
-  { name: "Services", href: "#services", current: false },
-  { name: "Projects", href: "#projects", current: false },
-  { name: "Team", href: "#team", current: false },
-  { name: "Contact", href: "#contact", current: false },
+  { name: "Home", href: "/", current: true },
+  { name: "About", href: "about", current: false },
+  { name: "Services", href: "services", current: false },
+  { name: "Projects", href: "project", current: false },
+  { name: "Pricing", href: "pricing", current: false },
+  { name: "Team", href: "team", current: false },
+  { name: "Contact", href: "contact", current: false },
 ];
 
 function classNames(...classes) {
