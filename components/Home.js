@@ -60,8 +60,27 @@ function Home() {
               <div className="row">
                 <div className="w-full lg:w-1/2">
                   <div className="header_hero_content pt-150 lg:pt-0">
-                    <div className="static-txt text-3xl sm:text-4xl md:text-5xl lg:text-4xl xl:text-4xl font-extrabold">
-                      We Love <span className="text-theme-color">Creativity</span>
+                    {/* <div className="static-txt text-3xl sm:text-4xl md:text-5xl lg:text-4xl xl:text-4xl font-extrabold">
+                      We Love <span className="hero_title">Creativity</span>
+                    </div> */}
+                    <div className="wrapper">
+                      <div className="static-txt text-3xl sm:text-4xl md:text-5xl lg:text-4xl xl:text-4xl font-extrabold">
+                        We build
+                      </div>
+                      <ul className="dynamic-txts text-3xl sm:text-4xl md:text-5xl lg:text-4xl xl:text-4xl font-extrabold">
+                        <li className="text-[#f75593]">
+                          <span>SaaS with pleasure</span>
+                        </li>
+                        <li className="text-[#2ea7f3]">
+                          <span>Iconic websites</span>
+                        </li>
+                        <li className="text-[#f78d94]">
+                          <span>IOS & android apps</span>
+                        </li>
+                        <li className="text-[#bf94d4]">
+                          <span>Software development </span>
+                        </li>
+                      </ul>
                     </div>
 
                     <p className="mt-8 lg:mr-8">

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import footerLogo from "/public/images/logo.png";
+import footerLogo from "/public/images/blue-logo.png";
 
 function Footer() {
   return (
@@ -32,17 +32,17 @@ function Footer() {
                       <h2 className="footer_title text-xl font-semibold text-white">Quick Links</h2>
                       <ul className="link pt-4">
                         <li>
-                          <a href="#" className="text-white mt-4 hover:text-theme-color">
+                          <a href="#" className="text-white mt-4 hover:text-[rgb(1,104,198)]">
                             Company
                           </a>
                         </li>
                         <li>
-                          <a href="#" className="text-white mt-4 hover:text-theme-color">
+                          <a href="#" className="text-white mt-4 hover:text-[rgb(1,104,198)]">
                             Privacy Policy
                           </a>
                         </li>
                         <li>
-                          <a href="#" className="text-white mt-4 hover:text-theme-color">
+                          <a href="#" className="text-white mt-4 hover:text-[rgb(1,104,198)]">
                             About
                           </a>
                         </li>
@@ -52,17 +52,17 @@ function Footer() {
                       <h2 className="footer_title text-xl font-semibold text-white">Resources</h2>
                       <ul className="link pt-4">
                         <li>
-                          <a href="#" className="text-white mt-4 hover:text-theme-color">
+                          <a href="#" className="text-white mt-4 hover:text-[rgb(1,104,198)]">
                             Support
                           </a>
                         </li>
                         <li>
-                          <a href="#" className="text-white mt-4 hover:text-theme-color">
+                          <a href="#" className="text-white mt-4 hover:text-[rgb(1,104,198)]">
                             Contact
                           </a>
                         </li>
                         <li>
-                          <a href="#" className="text-white mt-4 hover:text-theme-color">
+                          <a href="#" className="text-white mt-4 hover:text-[rgb(1,104,198)]">
                             Terms
                           </a>
                         </li>
@@ -74,13 +74,9 @@ function Footer() {
                   <div className="footer_subscribe mt-13 mx-3">
                     <h2 className="footer_title text-xl font-semibold text-white">Our Address</h2>
                     <div className="subscribe_form mt-9 relative">
-                      <p className="text-white mt-4 hover:text-theme-color">
-                        Email: twitesoft@gmail.com
-                      </p>
-                      <p className="text-white mt-4 hover:text-theme-color">
-                        Phone: +8801914-682468
-                      </p>
-                      <p className="text-white mt-4 hover:text-theme-color">
+                      <p className="text-white mt-4 ">Email: twitesoft@gmail.com</p>
+                      <p className="text-white mt-4 ">Phone: +8801914-682468</p>
+                      <p className="text-white mt-4 ">
                         Address: H# 469, R# 07, Avenue# 6, Mirpur-12 DOHS, Dhaka - 1216
                       </p>
                     </div>

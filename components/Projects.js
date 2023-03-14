@@ -1,154 +1,241 @@
 import Image from "next/image";
-import projectPos from "/public/images/pos.jpg";
+import Link from "next/link";
+import projectImage from "/public/images/project/project1.png";
 
 function Projects() {
   return (
     <div>
       <>
-        <section id="projects" className="work_area bg-gray pt-120 pb-120">
+        <section id="projects" className="work_area bg-white pt-12 pb-12">
           <div className="container">
             <div className="row justify-center">
               <div className="w-ull lg:w-1/2">
                 <div className="section_title text-center pb-6">
-                  <h5 className="sub_title">Works</h5>
                   <h4 className="main_title">Some of Our Recent Works</h4>
+                  <p className="text-[17px]">
+                    We are proud to work with truly innovative clients and the products we truly
+                    believe in. Here are just a few of the projects we’ve had the privilege to work
+                    with.
+                  </p>
                 </div>
               </div>
             </div>
-          </div>
-          <div className="container-fluid">
-            <div className="work_wrapper relative">
-              <div className="row work_active">
-                <div className="w-full sm:w-10/12 md:w-6/12 lg:w-4/12">
-                  <div className="single_item mx-auto">
-                    <div className="single_work mx-3">
-                      <div className="work_image">
-                        <Image src={projectPos} className="w-full" alt="services image" />
+            {/*------------------ project main container------------*/}
+            <div className="project-area mt-12">
+              <div className="container">
+                <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-2">
+                  {/*------------------ project content------------*/}
+                  <div className="flex">
+                    <div className="flex flex-col md:flex-row md:max-w-xl bg-gray-50  p-3">
+                      <Image src={projectImage} alt="project-image" className="w-48 h-48 md:w-96" />
+
+                      <div className="flex flex-col justify-start p-2">
+                        <div className="about_content mx-4 ">
+                          <div className="section_title pb-2">
+                            <h4 className="text-xl lg:text-2xl md:text-xl sm:text-[16px] font-bold ">
+                              POS- point of sale
+                            </h4>
+                          </div>
+                          <p className="text-sm sm:text-sm mb-3">
+                            The point of sale (POS) or point of purchase (POP) is the time and place
+                            at which a retail transaction is completed. At the point of sale, the
+                            merchant calculates the amount owed by the customer, indicates that
+                            amount, may prepare an invoice for the customer
+                          </p>
+                          <p>
+                            <span className="font-bold">Utilized:</span> PHP, Laravel, Vuejs.
+                          </p>
+                          <div className="row flex project-details mt-7">
+                            <div className="text-blue-500 row flex">
+                              <Link href="#">View case study</Link>
+                              <p className="mt-1 flex">
+                                <svg
+                                  color="blue"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  width="16"
+                                  height="16"
+                                  fill="currentColor"
+                                  class="bi bi-arrow-right"
+                                  viewBox="0 0 16 16"
+                                >
+                                  <path
+                                    fill-rule="evenodd"
+                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                                  />
+                                </svg>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
                       </div>
-                      <div className="work_content">
-                        <a href="#" className="arrow">
-                          <svg
-                            width="24"
-                            height="24"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill-rule="evenodd"
-                            clip-rule="evenodd"
-                          >
-                            <path d="M4 .755l14.374 11.245-14.374 11.219.619.781 15.381-12-15.391-12-.609.755z" />
-                          </svg>
-                        </a>
-                        <h4 className="work_title text-xl md:text-xl">
-                          <a href="#">POS SYSTEM</a>
-                        </h4>
-                        <p className="mt-2">Vue,PHP, Laravel , MySQL</p>
+                    </div>
+                  </div>
+                  {/*------------------ project content------------*/}
+                  <div className="flex">
+                    <div className="flex flex-col md:flex-row md:max-w-xl bg-gray-50  p-3">
+                      <Image src={projectImage} alt="project-image" className="w-48 h-48 md:w-96" />
+
+                      <div className="flex flex-col justify-start p-2">
+                        <div className="about_content mx-4 ">
+                          <div className="section_title pb-2">
+                            <h4 className="text-xl lg:text-2xl md:text-xl sm:text-[16px] font-bold ">
+                              POS- point of sale
+                            </h4>
+                          </div>
+                          <p className="text-sm sm:text-sm mb-3">
+                            The point of sale (POS) or point of purchase (POP) is the time and place
+                            at which a retail transaction is completed. At the point of sale, the
+                            merchant calculates the amount owed by the customer, indicates that
+                            amount, may prepare an invoice for the customer
+                          </p>
+                          <p>
+                            <span className="font-bold">Utilized:</span> PHP, Laravel, Vuejs.
+                          </p>
+                          <div className="row flex project-details mt-7">
+                            <div className="text-blue-500 row flex">
+                              <Link href="#">View case study</Link>
+                              <p className="mt-1 flex">
+                                <svg
+                                  color="blue"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  width="16"
+                                  height="16"
+                                  fill="currentColor"
+                                  class="bi bi-arrow-right"
+                                  viewBox="0 0 16 16"
+                                >
+                                  <path
+                                    fill-rule="evenodd"
+                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                                  />
+                                </svg>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  {/*------------------ project content------------*/}
+                  <div className="flex">
+                    <div className="flex flex-col md:flex-row md:max-w-xl bg-gray-50  p-3">
+                      <Image src={projectImage} alt="project-image" className="w-48 h-48 md:w-96" />
+
+                      <div className="flex flex-col justify-start p-2">
+                        <div className="about_content mx-4 ">
+                          <div className="section_title pb-2">
+                            <h4 className="text-xl lg:text-2xl md:text-xl sm:text-[16px] font-bold ">
+                              POS- point of sale
+                            </h4>
+                          </div>
+                          <p className="text-sm sm:text-sm mb-3">
+                            The point of sale (POS) or point of purchase (POP) is the time and place
+                            at which a retail transaction is completed. At the point of sale, the
+                            merchant calculates the amount owed by the customer, indicates that
+                            amount, may prepare an invoice for the customer
+                          </p>
+                          <p>
+                            <span className="font-bold">Utilized:</span> PHP, Laravel, Vuejs.
+                          </p>
+                          <div className="row flex project-details mt-7">
+                            <div className="text-blue-500 row flex">
+                              <Link href="#">View case study</Link>
+                              <p className="mt-1 flex">
+                                <svg
+                                  color="blue"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  width="16"
+                                  height="16"
+                                  fill="currentColor"
+                                  class="bi bi-arrow-right"
+                                  viewBox="0 0 16 16"
+                                >
+                                  <path
+                                    fill-rule="evenodd"
+                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                                  />
+                                </svg>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  {/*------------------ project content------------*/}
+                  <div className="flex">
+                    <div className="flex flex-col md:flex-row md:max-w-xl bg-gray-50  p-3">
+                      <Image src={projectImage} alt="project-image" className="w-48 h-48 md:w-96" />
+
+                      <div className="flex flex-col justify-start p-2">
+                        <div className="about_content mx-4 ">
+                          <div className="section_title pb-2">
+                            <h4 className="text-xl lg:text-2xl md:text-xl sm:text-[16px] font-bold ">
+                              POS- point of sale
+                            </h4>
+                          </div>
+                          <p className="text-sm sm:text-sm mb-3">
+                            The point of sale (POS) or point of purchase (POP) is the time and place
+                            at which a retail transaction is completed. At the point of sale, the
+                            merchant calculates the amount owed by the customer, indicates that
+                            amount, may prepare an invoice for the customer
+                          </p>
+                          <p>
+                            <span className="font-bold">Utilized:</span> PHP, Laravel, Vuejs.
+                          </p>
+                          <div className="row flex project-details mt-7">
+                            <div className="text-blue-500 row flex">
+                              <Link href="#">View case study</Link>
+                              <p className="mt-1 flex">
+                                <svg
+                                  color="blue"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  width="16"
+                                  height="16"
+                                  fill="currentColor"
+                                  class="bi bi-arrow-right"
+                                  viewBox="0 0 16 16"
+                                >
+                                  <path
+                                    fill-rule="evenodd"
+                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                                  />
+                                </svg>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className="w-full sm:w-10/12 md:w-6/12 lg:w-4/12">
-                  <div className="single_item mx-auto">
-                    <div className="single_work mx-3">
-                      <div className="work_image">
-                        <Image src={projectPos} className="w-full" alt="services image" />
-                      </div>
-                      <div className="work_content">
-                        <a href="#" className="arrow">
-                          <svg
-                            width="24"
-                            height="24"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill-rule="evenodd"
-                            clip-rule="evenodd"
-                          >
-                            <path d="M4 .755l14.374 11.245-14.374 11.219.619.781 15.381-12-15.391-12-.609.755z" />
-                          </svg>
-                        </a>
-                        <h4 className="work_title text-xl md:text-xl">
-                          <a href="#">POS SYSTEM</a>
-                        </h4>
-                        <p className="mt-2">Vue,PHP, Laravel , MySQL</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="w-full sm:w-10/12 md:w-6/12 lg:w-4/12">
-                  <div className="single_item mx-auto">
-                    <div className="single_work mx-3">
-                      <div className="work_image">
-                        <Image src={projectPos} className="w-full" alt="services image" />
-                      </div>
-                      <div className="work_content">
-                        <a href="#" className="arrow">
-                          <svg
-                            width="24"
-                            height="24"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill-rule="evenodd"
-                            clip-rule="evenodd"
-                          >
-                            <path d="M4 .755l14.374 11.245-14.374 11.219.619.781 15.381-12-15.391-12-.609.755z" />
-                          </svg>
-                        </a>
-                        <h4 className="work_title text-xl md:text-xl">
-                          <a href="#">POS SYSTEM</a>
-                        </h4>
-                        <p className="mt-2">Vue,PHP, Laravel , MySQL</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="w-full sm:w-10/12 md:w-6/12 lg:w-4/12">
-                  <div className="single_item mx-auto">
-                    <div className="single_work mx-3">
-                      <div className="work_image">
-                        <Image src={projectPos} className="w-full" alt="services image" />
-                      </div>
-                      <div className="work_content">
-                        <a href="#" className="arrow">
-                          <svg
-                            width="24"
-                            height="24"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill-rule="evenodd"
-                            clip-rule="evenodd"
-                          >
-                            <path d="M4 .755l14.374 11.245-14.374 11.219.619.781 15.381-12-15.391-12-.609.755z" />
-                          </svg>
-                        </a>
-                        <h4 className="work_title text-xl md:text-xl">
-                          <a href="#">POS SYSTEM</a>
-                        </h4>
-                        <p className="mt-2">Vue,PHP, Laravel , MySQL</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="w-full sm:w-10/12 md:w-6/12 lg:w-4/12">
-                  <div className="single_item mx-auto">
-                    <div className="single_work mx-3">
-                      <div className="work_image">
-                        <Image src={projectPos} className="w-full" alt="services image" />
-                      </div>
-                      <div className="work_content">
-                        <a href="#" className="arrow">
-                          <svg
-                            width="24"
-                            height="24"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill-rule="evenodd"
-                            clip-rule="evenodd"
-                          >
-                            <path d="M4 .755l14.374 11.245-14.374 11.219.619.781 15.381-12-15.391-12-.609.755z" />
-                          </svg>
-                        </a>
-                        <h4 className="work_title text-xl md:text-xl">
-                          <a href="#">POS SYSTEM</a>
-                        </h4>
-                        <p className="mt-2">Vue,PHP, Laravel , MySQL</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+              </div>
+            </div>
+
+            {/*_____________View more project______________*/}
+            <div className="row flex justify-center">
+              <div className="row flex mt-16">
+                <Link href="#">
+                  <button className="main-btn contact-btn bg-[rgb(56,66,77)] inline-flex items-center px-4 py-2 ">
+                    View More Projects
+                    <svg
+                      className="ml-2"
+                      color="white"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-arrow-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                        fill="white"
+                      ></path>
+                    </svg>
+                  </button>
+                </Link>
               </div>
             </div>
           </div>

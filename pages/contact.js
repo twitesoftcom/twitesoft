@@ -10,7 +10,7 @@ export default function contactPages() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div>
+      <div className="mt-12">
         <Contact />
       </div>
     </>
