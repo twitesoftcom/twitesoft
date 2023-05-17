@@ -36,15 +36,15 @@ export default function Navbar() {
                           height="30"
                           color="black"
                           fill="currentColor"
-                          class="bi bi-x-lg"
+                          className="bi bi-x-lg"
                           viewBox="0 0 16 16"
                         >
                           <path
-                            fill-rule="evenodd"
+                            fillRule="evenodd"
                             d="M13.854 2.146a.5.5 0 0 1 0 .708l-11 11a.5.5 0 0 1-.708-.708l11-11a.5.5 0 0 1 .708 0Z"
                           />
                           <path
-                            fill-rule="evenodd"
+                            fillRule="evenodd"
                             d="M2.146 2.146a.5.5 0 0 0 0 .708l11 11a.5.5 0 0 0 .708-.708l-11-11a.5.5 0 0 0-.708 0Z"
                           />
                         </svg>
@@ -55,11 +55,11 @@ export default function Navbar() {
                           height="30"
                           color="black"
                           fill="currentColor"
-                          class="bi bi-list"
+                          className="bi bi-list"
                           viewBox="0 0 16 16"
                         >
                           <path
-                            fill-rule="evenodd"
+                            fillRule="evenodd"
                             d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
                           />
                         </svg>
@@ -82,11 +82,14 @@ export default function Navbar() {
                       <div className="flex space-x-4 justify-items-end items-center content-start mr-auto lg:justify-end navbar-nav lg:flex">
                         <ul
                           id="nav"
-                          class="items-center content-start mr-auto lg:justify-end navbar-nav lg:flex"
+                          className="items-center content-start mr-auto lg:justify-end navbar-nav lg:flex"
                         >
                           {navigation.map((item) => (
-                            <li class="nav-item ml-5 lg:ml-11" key={item.name}>
-                              <a class="page-scroll" href={item.href}>
+                            <li
+                              className="nav-item ml-5 lg:ml-11"
+                              key={item.name}
+                            >
+                              <a className="page-scroll" href={item.href}>
                                 {item.name}
                               </a>
                             </li>

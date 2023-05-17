@@ -62,7 +62,7 @@ function Team() {
                                 width="24"
                                 height="24"
                                 fill="currentColor"
-                                class="bi bi-twitter"
+                                className="bi bi-twitter"
                                 viewBox="0 0 16 16"
                               >
                                 <path
@@ -165,7 +165,7 @@ function Team() {
                                 width="24"
                                 height="24"
                                 fill="currentColor"
-                                class="bi bi-twitter"
+                                className="bi bi-twitter"
                                 viewBox="0 0 16 16"
                               >
                                 <path
@@ -272,7 +272,7 @@ function Team() {
                                 width="24"
                                 height="24"
                                 fill="currentColor"
-                                class="bi bi-twitter"
+                                className="bi bi-twitter"
                                 viewBox="0 0 16 16"
                               >
                                 <path
@@ -379,7 +379,7 @@ function Team() {
                                 width="24"
                                 height="24"
                                 fill="currentColor"
-                                class="bi bi-twitter"
+                                className="bi bi-twitter"
                                 viewBox="0 0 16 16"
                               >
                                 <path
@@ -482,7 +482,7 @@ function Team() {
                                 width="24"
                                 height="24"
                                 fill="currentColor"
-                                class="bi bi-twitter"
+                                className="bi bi-twitter"
                                 viewBox="0 0 16 16"
                               >
                                 <path
@@ -589,7 +589,7 @@ function Team() {
                                 width="24"
                                 height="24"
                                 fill="currentColor"
-                                class="bi bi-twitter"
+                                className="bi bi-twitter"
                                 viewBox="0 0 16 16"
                               >
                                 <path
