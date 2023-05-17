@@ -64,10 +64,10 @@ function Home() {
                       We Love <span className="hero_title">Creativity</span>
                     </div> */}
                     <div className="wrapper">
-                      <div className="static-txt text-3xl sm:text-4xl md:text-5xl lg:text-4xl xl:text-4xl font-extrabold">
+                      <div className="static-txt text-xl sm:text-xl md:text-5xl lg:text-4xl xl:text-4xl font-extrabold">
                         We build
                       </div>
-                      <ul className="dynamic-txts text-3xl sm:text-4xl md:text-5xl lg:text-4xl xl:text-4xl font-extrabold">
+                      <ul className="dynamic-txts text-xl sm:text-xl md:text-5xl lg:text-4xl xl:text-4xl font-extrabold">
                         <li className="text-[#f75593]">
                           <span>SaaS with pleasure</span>
                         </li>

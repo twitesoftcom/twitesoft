@@ -166,8 +166,8 @@ function About() {
                   </div>
                   <p>
                     In <span className="text-blue-600">TwiteSoft</span> we follow a straight,
-                    relaxing and transparent work life that uses an agile approach and not the "old
-                    hierarchies". We want to break down the silos, share all we can and empower all
+                    relaxing and transparent work life that uses an agile approach and not the old
+                    hierarchies. We want to break down the silos, share all we can and empower all
                     of us to be the best we can be. There is a word for this organisation method,
                     and it is Holacracy.
                   </p>

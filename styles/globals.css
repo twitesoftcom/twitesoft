@@ -5,6 +5,41 @@
 .hero_title {
   color: rgb(1, 104, 198);
 }
+/* Work Banner css */
+@media all and (max-width: 396px) {
+  .shape_1 {
+    top: 70px;
+    left: 315px;
+  }
+  .shape_2 {
+    top: 150px;
+    left: 335px;
+  }
+  .shape_3 {
+    top: 190px;
+    left: 95px;
+  }
+  .shape_4 {
+    top: 95px;
+    left: 95px;
+  }
+  .shape_5 {
+    top: 106px;
+    left: 190px;
+  }
+  .shape_6 {
+    top: 59px;
+    left: 190px;
+  }
+  .shape_7 {
+    top: 330px;
+    left: 250px;
+  }
+  .dynamic-txts {
+    margin-top: -31px !important;
+  }
+}
+
 /* Work Process css */
 .services_icon {
   position: relative;
@@ -116,5 +151,12 @@
     position: absolute;
     top: 0;
     left: 350px;
+  }
+}
+@media all and (max-width: 396px) {
+  .mobile-menu {
+    position: absolute;
+    top: 0;
+    left: 335px;
   }
 }

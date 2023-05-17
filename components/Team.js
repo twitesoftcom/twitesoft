@@ -2,7 +2,7 @@ import Image from "next/image";
 import teamImg1 from "/public/images/team/team1.jpg";
 import teamImg2 from "/public/images/team/team2.jpg";
 import teamImg3 from "/public/images/team/team3.jpg";
-import teamImg4 from "/public/images/team/team4.jpg";
+import teamImg4 from "/public/images/team/rajib.jpg";
 import teamImg5 from "/public/images/team/team5.webp";
 import teamImg6 from "/public/images/team/team6.jpg";
 
@@ -29,7 +29,11 @@ function Team() {
                         <Image src={teamImg1} alt="team image" className="w-full" />
                         <ul className="social absolute top-4 right-8">
                           <li>
-                            <a href="https://www.facebook.com/almamun.csit" target="-blank">
+                            <a
+                              href="https://www.facebook.com/almamun.csit"
+                              target="_blank"
+                              rel="noreferrer"
+                            >
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="24"
@@ -44,7 +48,11 @@ function Team() {
                             </a>
                           </li>
                           <li>
-                            <a href="https://twitter.com/almamuncsit" target="-blank">
+                            <a
+                              href="https://twitter.com/almamuncsit"
+                              target="_blank"
+                              rel="noreferrer"
+                            >
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="24"
@@ -61,7 +69,11 @@ function Team() {
                             </a>
                           </li>
                           <li>
-                            <a href="https://www.linkedin.com/in/almamuncsit/" target="-blank">
+                            <a
+                              href="https://www.linkedin.com/in/almamuncsit/"
+                              target="_blank"
+                              rel="noreferrer"
+                            >
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="24"
@@ -76,7 +88,11 @@ function Team() {
                             </a>
                           </li>
                           <li>
-                            <a href="https://github.com/almamuncsit" target="-blank">
+                            <a
+                              href="https://github.com/almamuncsit"
+                              target="_blank"
+                              rel="noreferrer"
+                            >
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="24"
@@ -112,7 +128,11 @@ function Team() {
                         <Image src={teamImg2} alt="team image" className="w-full" />
                         <ul className="social absolute top-4 right-8">
                           <li>
-                            <a href="https://www.facebook.com/abdurrahmanriyadbd" target="-blank">
+                            <a
+                              href="https://www.facebook.com/abdurrahmanriyadbd"
+                              target="_blank"
+                              rel="noreferrer"
+                            >
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="24"
@@ -144,7 +164,11 @@ function Team() {
                             </a>
                           </li>
                           <li>
-                            <a href="https://www.linkedin.com/in/abdurrahmanriyad/" target="-blank">
+                            <a
+                              href="https://www.linkedin.com/in/abdurrahmanriyad/"
+                              target="_blank"
+                              rel="noreferrer"
+                            >
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="24"
@@ -159,7 +183,11 @@ function Team() {
                             </a>
                           </li>
                           <li>
-                            <a href="https://github.com//abdurrahmanriyad/" target="-blank">
+                            <a
+                              href="https://github.com//abdurrahmanriyad/"
+                              target="_blank"
+                              rel="noreferrer"
+                            >
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="24"
@@ -195,7 +223,11 @@ function Team() {
                         <Image src={teamImg3} alt="team image" className="w-full" />
                         <ul className="social absolute top-4 right-8">
                           <li>
-                            <a href="https://www.facebook.com/abirbikal" target="-blank">
+                            <a
+                              href="https://www.facebook.com/abirbikal"
+                              target="_blank"
+                              rel="noreferrer"
+                            >
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="24"
@@ -210,7 +242,11 @@ function Team() {
                             </a>
                           </li>
                           <li>
-                            <a href="https://twitter.com/abirbikal" target="-blank">
+                            <a
+                              href="https://twitter.com/abirbikal"
+                              target="_blank"
+                              rel="noreferrer"
+                            >
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="24"
@@ -227,7 +263,11 @@ function Team() {
                             </a>
                           </li>
                           <li>
-                            <a href="https://www.linkedin.com/in/tipudanny/" target="-blank">
+                            <a
+                              href="https://www.linkedin.com/in/tipudanny/"
+                              target="_blank"
+                              rel="noreferrer"
+                            >
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="24"
@@ -242,7 +282,11 @@ function Team() {
                             </a>
                           </li>
                           <li>
-                            <a href="https://github.com//tipudanny/" target="-blank">
+                            <a
+                              href="https://github.com//tipudanny/"
+                              target="_blank"
+                              rel="noreferrer"
+                            >
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="24"
@@ -278,7 +322,11 @@ function Team() {
                         <Image src={teamImg4} alt="team image" className="w-full h-[289px]" />
                         <ul className="social absolute top-4 right-8">
                           <li>
-                            <a href="https://www.facebook.com/rajibmia.rahid51" target="_blank">
+                            <a
+                              href="https://www.facebook.com/rajibmia.rahid51"
+                              target="_blank"
+                              rel="noreferrer"
+                            >
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="24"
@@ -293,7 +341,11 @@ function Team() {
                             </a>
                           </li>
                           <li>
-                            <a href="https://twitter.com/rajibmia709" target="_blank">
+                            <a
+                              href="https://twitter.com/rajibmia709"
+                              target="_blank"
+                              rel="noreferrer"
+                            >
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="24"
@@ -310,7 +362,11 @@ function Team() {
                             </a>
                           </li>
                           <li>
-                            <a href="https://www.linkedin.com/in/rajibmiarahid/" target="_blank">
+                            <a
+                              href="https://www.linkedin.com/in/rajibmiarahid/"
+                              target="_blank"
+                              rel="noreferrer"
+                            >
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="24"
@@ -325,7 +381,7 @@ function Team() {
                             </a>
                           </li>
                           <li>
-                            <a href="https://github.com/rajibcsit" target="_blank">
+                            <a href="https://github.com/rajibcsit" target="_blank" rel="noreferrer">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="24"
@@ -361,7 +417,11 @@ function Team() {
                         <Image src={teamImg5} alt="team image" className="w-full" />
                         <ul className="social absolute top-4 right-8">
                           <li>
-                            <a href="https://www.facebook.com/alamin.csit" target="-blank">
+                            <a
+                              href="https://www.facebook.com/alamin.csit"
+                              target="_blank"
+                              rel="noreferrer"
+                            >
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="24"
@@ -376,7 +436,11 @@ function Team() {
                             </a>
                           </li>
                           <li>
-                            <a href="https://twitter.com/AlaminI30306737" target="-blank">
+                            <a
+                              href="https://twitter.com/AlaminI30306737"
+                              target="_blank"
+                              rel="noreferrer"
+                            >
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="24"
@@ -395,7 +459,8 @@ function Team() {
                           <li>
                             <a
                               href="https://www.linkedin.com/in/md-al-amin-islam-1725aa1bb/"
-                              target="-blank"
+                              target="_blank"
+                              rel="noreferrer"
                             >
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
@@ -411,7 +476,11 @@ function Team() {
                             </a>
                           </li>
                           <li>
-                            <a href="https://github.com/developeralamin" target="-blank">
+                            <a
+                              href="https://github.com/developeralamin"
+                              target="_blank"
+                              rel="noreferrer"
+                            >
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="24"
@@ -447,7 +516,11 @@ function Team() {
                         <Image src={teamImg6} alt="team image" className="w-full" />
                         <ul className="social absolute top-4 right-8">
                           <li>
-                            <a href="https://www.facebook.com/AlHasanSarkar" target="-blank">
+                            <a
+                              href="https://www.facebook.com/AlHasanSarkar"
+                              target="_blank"
+                              rel="noreferrer"
+                            >
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="24"
@@ -462,7 +535,11 @@ function Team() {
                             </a>
                           </li>
                           <li>
-                            <a href="https://twitter.com/AlHasanSarkar" target="-blank">
+                            <a
+                              href="https://twitter.com/AlHasanSarkar"
+                              target="_blank"
+                              rel="noreferrer"
+                            >
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="24"
@@ -481,7 +558,8 @@ function Team() {
                           <li>
                             <a
                               href="https://www.linkedin.com/in/al-hasan-sarkar-4a9a65b5/"
-                              target="-blank"
+                              target="_blank"
+                              rel="noreferrer"
                             >
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"

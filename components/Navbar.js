@@ -81,7 +81,7 @@ export default function Navbar() {
                           class="items-center content-start mr-auto lg:justify-end navbar-nav lg:flex"
                         >
                           {navigation.map((item) => (
-                            <li class="nav-item ml-5 lg:ml-11">
+                            <li class="nav-item ml-5 lg:ml-11" key={item.name}>
                               <a class="page-scroll" href={item.href}>
                                 {item.name}
                               </a>

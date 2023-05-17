@@ -72,7 +72,7 @@ function Footer() {
                 </div>
                 <div className="w-full md:w-2/3 lg:w-4/12">
                   <div className="footer_subscribe mt-13 mx-3">
-                    <h2 className="footer_title text-xl font-semibold text-white">Our Address</h2>
+                    <h2 className="footer_title text-xl font-semibold text-white">Find Us</h2>
                     <div className="subscribe_form mt-9 relative">
                       <p className="text-white mt-4 ">Email: twitesoft@gmail.com</p>
                       <p className="text-white mt-4 ">Phone: +8801914-682468</p>
