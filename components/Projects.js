@@ -13,9 +13,9 @@ function Projects() {
                 <div className="section_title text-center pb-6">
                   <h4 className="main_title">Some of Our Recent Works</h4>
                   <p className="text-[17px]">
-                    We are proud to work with truly innovative clients and the products we truly
-                    believe in. Here are just a few of the projects we’ve had the privilege to work
-                    with.
+                    We are proud to work with truly innovative clients and the
+                    products we truly believe in. Here are just a few of the
+                    projects we’ve had the privilege to work with.
                   </p>
                 </div>
               </div>
@@ -26,8 +26,12 @@ function Projects() {
                 <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-2">
                   {/*------------------ project content------------*/}
                   <div className="flex">
-                    <div className="flex flex-col md:flex-row md:max-w-xl bg-gray-50  p-3">
-                      <Image src={projectImage} alt="project-image" className="w-48 h-48 md:w-96" />
+                    <div className="flex flex-col md:flex-row  p-3">
+                      <Image
+                        src={projectImage}
+                        alt="project-image"
+                        className="w-48 h-48 md:w-96"
+                      />
 
                       <div className="flex flex-col justify-start p-2">
                         <div className="about_content mx-4 ">
@@ -37,43 +41,29 @@ function Projects() {
                             </h4>
                           </div>
                           <p className="text-sm sm:text-sm mb-3">
-                            The point of sale (POS) or point of purchase (POP) is the time and place
-                            at which a retail transaction is completed. At the point of sale, the
-                            merchant calculates the amount owed by the customer, indicates that
-                            amount, may prepare an invoice for the customer
+                            The point of sale (POS) or point of purchase (POP)
+                            is the time and place at which a retail transaction
+                            is completed. At the point of sale, the merchant
+                            calculates the amount owed by the customer,
+                            indicates that amount, may prepare an invoice for
+                            the customer
                           </p>
                           <p>
-                            <span className="font-bold">Utilized:</span> PHP, Laravel, Vuejs.
+                            <span className="font-bold">Utilized:</span> PHP,
+                            Laravel, Vuejs.
                           </p>
-                          <div className="row flex project-details mt-7">
-                            <div className="text-blue-500 row flex">
-                              <Link href="#">View case study</Link>
-                              <p className="mt-1 flex">
-                                <svg
-                                  color="blue"
-                                  xmlns="http://www.w3.org/2000/svg"
-                                  width="16"
-                                  height="16"
-                                  fill="currentColor"
-                                  class="bi bi-arrow-right"
-                                  viewBox="0 0 16 16"
-                                >
-                                  <path
-                                    fill-rule="evenodd"
-                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
-                                  />
-                                </svg>
-                              </p>
-                            </div>
-                          </div>
                         </div>
                       </div>
                     </div>
                   </div>
                   {/*------------------ project content------------*/}
                   <div className="flex">
-                    <div className="flex flex-col md:flex-row md:max-w-xl bg-gray-50  p-3">
-                      <Image src={projectImage} alt="project-image" className="w-48 h-48 md:w-96" />
+                    <div className="flex flex-col md:flex-row  p-3">
+                      <Image
+                        src={projectImage}
+                        alt="project-image"
+                        className="w-48 h-48 md:w-96"
+                      />
 
                       <div className="flex flex-col justify-start p-2">
                         <div className="about_content mx-4 ">
@@ -83,43 +73,29 @@ function Projects() {
                             </h4>
                           </div>
                           <p className="text-sm sm:text-sm mb-3">
-                            The point of sale (POS) or point of purchase (POP) is the time and place
-                            at which a retail transaction is completed. At the point of sale, the
-                            merchant calculates the amount owed by the customer, indicates that
-                            amount, may prepare an invoice for the customer
+                            The point of sale (POS) or point of purchase (POP)
+                            is the time and place at which a retail transaction
+                            is completed. At the point of sale, the merchant
+                            calculates the amount owed by the customer,
+                            indicates that amount, may prepare an invoice for
+                            the customer
                           </p>
                           <p>
-                            <span className="font-bold">Utilized:</span> PHP, Laravel, Vuejs.
+                            <span className="font-bold">Utilized:</span> PHP,
+                            Laravel, Vuejs.
                           </p>
-                          <div className="row flex project-details mt-7">
-                            <div className="text-blue-500 row flex">
-                              <Link href="#">View case study</Link>
-                              <p className="mt-1 flex">
-                                <svg
-                                  color="blue"
-                                  xmlns="http://www.w3.org/2000/svg"
-                                  width="16"
-                                  height="16"
-                                  fill="currentColor"
-                                  class="bi bi-arrow-right"
-                                  viewBox="0 0 16 16"
-                                >
-                                  <path
-                                    fill-rule="evenodd"
-                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
-                                  />
-                                </svg>
-                              </p>
-                            </div>
-                          </div>
                         </div>
                       </div>
                     </div>
                   </div>
                   {/*------------------ project content------------*/}
                   <div className="flex">
-                    <div className="flex flex-col md:flex-row md:max-w-xl bg-gray-50  p-3">
-                      <Image src={projectImage} alt="project-image" className="w-48 h-48 md:w-96" />
+                    <div className="flex flex-col md:flex-row  p-3">
+                      <Image
+                        src={projectImage}
+                        alt="project-image"
+                        className="w-48 h-48 md:w-96"
+                      />
 
                       <div className="flex flex-col justify-start p-2">
                         <div className="about_content mx-4 ">
@@ -129,43 +105,29 @@ function Projects() {
                             </h4>
                           </div>
                           <p className="text-sm sm:text-sm mb-3">
-                            The point of sale (POS) or point of purchase (POP) is the time and place
-                            at which a retail transaction is completed. At the point of sale, the
-                            merchant calculates the amount owed by the customer, indicates that
-                            amount, may prepare an invoice for the customer
+                            The point of sale (POS) or point of purchase (POP)
+                            is the time and place at which a retail transaction
+                            is completed. At the point of sale, the merchant
+                            calculates the amount owed by the customer,
+                            indicates that amount, may prepare an invoice for
+                            the customer
                           </p>
                           <p>
-                            <span className="font-bold">Utilized:</span> PHP, Laravel, Vuejs.
+                            <span className="font-bold">Utilized:</span> PHP,
+                            Laravel, Vuejs.
                           </p>
-                          <div className="row flex project-details mt-7">
-                            <div className="text-blue-500 row flex">
-                              <Link href="#">View case study</Link>
-                              <p className="mt-1 flex">
-                                <svg
-                                  color="blue"
-                                  xmlns="http://www.w3.org/2000/svg"
-                                  width="16"
-                                  height="16"
-                                  fill="currentColor"
-                                  class="bi bi-arrow-right"
-                                  viewBox="0 0 16 16"
-                                >
-                                  <path
-                                    fill-rule="evenodd"
-                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
-                                  />
-                                </svg>
-                              </p>
-                            </div>
-                          </div>
                         </div>
                       </div>
                     </div>
                   </div>
                   {/*------------------ project content------------*/}
                   <div className="flex">
-                    <div className="flex flex-col md:flex-row md:max-w-xl bg-gray-50  p-3">
-                      <Image src={projectImage} alt="project-image" className="w-48 h-48 md:w-96" />
+                    <div className="flex flex-col md:flex-row  p-3">
+                      <Image
+                        src={projectImage}
+                        alt="project-image"
+                        className="w-48 h-48 md:w-96"
+                      />
 
                       <div className="flex flex-col justify-start p-2">
                         <div className="about_content mx-4 ">
@@ -175,35 +137,17 @@ function Projects() {
                             </h4>
                           </div>
                           <p className="text-sm sm:text-sm mb-3">
-                            The point of sale (POS) or point of purchase (POP) is the time and place
-                            at which a retail transaction is completed. At the point of sale, the
-                            merchant calculates the amount owed by the customer, indicates that
-                            amount, may prepare an invoice for the customer
+                            The point of sale (POS) or point of purchase (POP)
+                            is the time and place at which a retail transaction
+                            is completed. At the point of sale, the merchant
+                            calculates the amount owed by the customer,
+                            indicates that amount, may prepare an invoice for
+                            the customer
                           </p>
                           <p>
-                            <span className="font-bold">Utilized:</span> PHP, Laravel, Vuejs.
+                            <span className="font-bold">Utilized:</span> PHP,
+                            Laravel, Vuejs.
                           </p>
-                          <div className="row flex project-details mt-7">
-                            <div className="text-blue-500 row flex">
-                              <Link href="#">View case study</Link>
-                              <p className="mt-1 flex">
-                                <svg
-                                  color="blue"
-                                  xmlns="http://www.w3.org/2000/svg"
-                                  width="16"
-                                  height="16"
-                                  fill="currentColor"
-                                  class="bi bi-arrow-right"
-                                  viewBox="0 0 16 16"
-                                >
-                                  <path
-                                    fill-rule="evenodd"
-                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
-                                  />
-                                </svg>
-                              </p>
-                            </div>
-                          </div>
                         </div>
                       </div>
                     </div>

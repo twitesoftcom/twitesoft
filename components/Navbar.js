@@ -2,14 +2,13 @@ import Image from "next/image";
 import Link from "next/link";
 import websiteLogo from "/public/images/blue-logo.png";
 
-import { Disclosure, Menu, Transition } from "@headlessui/react";
+import { Disclosure } from "@headlessui/react";
 
 const navigation = [
   { name: "Home", href: "/", current: true },
   { name: "About", href: "about", current: false },
   { name: "Services", href: "services", current: false },
   { name: "Projects", href: "project", current: false },
-  { name: "Pricing", href: "pricing", current: false },
   { name: "Team", href: "team", current: false },
   { name: "Contact", href: "contact", current: false },
 ];
@@ -21,7 +20,7 @@ function classNames(...classes) {
 export default function Navbar() {
   return (
     <>
-      <nav className="z-20 fixed top-0 left-0 right-0 py-2 shadow-lg">
+      <nav className="z-20 fixed top-0 left-0 right-0 py-2">
         <Disclosure as="nav">
           {({ open }) => (
             <>
@@ -70,7 +69,12 @@ export default function Navbar() {
                   <div className="flex lg:flex-1  items-center justify-center sm:items-stretch  sm:justify-between">
                     <div className="flex flex-shrink-0 items-center">
                       <Link href="/">
-                        <Image src={websiteLogo} alt="logo" width={150} height={140} />
+                        <Image
+                          src={websiteLogo}
+                          alt="logo"
+                          width={150}
+                          height={140}
+                        />
                       </Link>
                     </div>
 
@@ -101,7 +105,10 @@ export default function Navbar() {
                       key={item.name}
                       as="a"
                       href={item.href}
-                      className={classNames(item.current ? "" : "", "block px-3 py-2 text-sm")}
+                      className={classNames(
+                        item.current ? "" : "",
+                        "block px-3 py-2 text-sm"
+                      )}
                       aria-current={item.current ? "page" : undefined}
                     >
                       {item.name}

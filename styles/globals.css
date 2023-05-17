@@ -45,7 +45,8 @@
   position: relative;
 }
 .header_hero {
-  background: #f5f5fc;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(224,245,241,1) 0%, rgba(255,244,244,1) 100%);
 }
 
 .service_svg {
@@ -61,12 +62,14 @@
 .service_svg_icon {
   fill: #000;
 }
+.single_services {
+  min-height: 375px;
+}
 .single_services:hover .service_svg_icon {
   fill: currentColor;
   --tw-text-opacity: 1;
   color: #fff;
 }
-
 .main_icon {
   position: relative;
 }

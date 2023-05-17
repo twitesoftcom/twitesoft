@@ -1,12 +1,12 @@
 import Head from "next/head";
 
-import Home from "@/components/Home";
 import About from "@/components/About";
-import Services from "@/components/Services";
+import Home from "@/components/Home";
 import Projects from "@/components/Projects";
+import Services from "@/components/Services";
 // import Pricing from "@/components/Pricing";
-import Team from "@/components/Team";
 import Contact from "@/components/Contact";
+import Team from "@/components/Team";
 
 export default function index() {
   return (
@@ -24,8 +24,6 @@ export default function index() {
         <Services />
 
         <Projects />
-
-        {/* <Pricing /> */}
 
         <Team />
 

@@ -4,8 +4,8 @@ import aboutImage from "/public/images/about.svg";
 function About() {
   return (
     <div>
-      <>
-        <section className="services_area pt-12" id="about">
+      <div className="full_about">
+        <section className="pt-12" id="about">
           <div className="container">
             <div className="row justify-center">
               <div className="w-full lg:w-1/2">
@@ -53,8 +53,9 @@ function About() {
                       Research
                     </h3>
                     <p className="mt-4">
-                      Lorem ipsum dolor sit amet, consetetur sadi aliquyam erat, sed diam voluptua.
-                      At vero eos accusam et justo duo dolores{" "}
+                      Gain valuable insights and understand user needs through
+                      thorough research, setting the foundation for informed
+                      decision-making and successful project outcomes.
                     </p>
                   </div>
                 </div>
@@ -96,8 +97,9 @@ function About() {
                       Prototype
                     </h3>
                     <p className="mt-4">
-                      Lorem ipsum dolor sit amet, consetetur sadi aliquyam erat, sed diam voluptua.
-                      At vero eos accusam et justo duo dolores{" "}
+                      Visualize your ideas and test concepts with interactive
+                      prototypes, allowing for early feedback and refinement to
+                      ensure a user-centric and intuitive final product
                     </p>
                   </div>
                 </div>
@@ -140,8 +142,10 @@ function About() {
                       Build
                     </h3>
                     <p className="mt-4">
-                      Lorem ipsum dolor sit amet, consetetur sadi aliquyam erat, sed diam voluptua.
-                      At vero eos accusam et justo duo dolores{" "}
+                      Bring your vision to life with our skilled development
+                      team, leveraging cutting-edge technologies and best
+                      practices to deliver a robust and scalable solution.
+                      {/* that meets your business objectives. */}
                     </p>
                   </div>
                 </div>
@@ -150,7 +154,7 @@ function About() {
           </div>
         </section>
 
-        <section id="why" className="about_area pt-120 relative">
+        <section id="why" className="about_area pt-50 relative">
           <div className="about_image flex items-end justify-end">
             <div className="image lg:pr-13">
               <Image src={aboutImage} alt="about image" />
@@ -161,18 +165,11 @@ function About() {
               <div className="w-full lg:w-1/2">
                 <div className="about_content mx-4 pt-11 lg:pt-15 lg:pb-15">
                   <div className="section_title pb-9">
-                    <h5 className="sub_title">Why Choose Us</h5>
                     <h4 className="main_title">Your Goal is Our Achievement</h4>
+                    {/* <h5 className="sub_title">Why Choose Us</h5> */}
                   </div>
-                  <p>
-                    In <span className="text-blue-600">TwiteSoft</span> we follow a straight,
-                    relaxing and transparent work life that uses an agile approach and not the old
-                    hierarchies. We want to break down the silos, share all we can and empower all
-                    of us to be the best we can be. There is a word for this organisation method,
-                    and it is Holacracy.
-                  </p>
                   <div className="text-xl font-semibold mt-6">
-                    <h4>We Like:</h4>
+                    <h4>Why Choose Us</h4>
                   </div>
                   <ul className="about_list pt-3">
                     <li className="flex mt-5">
@@ -189,7 +186,13 @@ function About() {
                       </svg>
 
                       <div className="about_list_content pl-5 pr-2">
-                        <p>Open team based work life</p>
+                        <p>
+                          <strong>Technical Excellence:</strong> We take pride
+                          in our team's exceptional technical prowess, with a
+                          deep understanding of the latest technologies and
+                          industry best practices, ensuring the delivery of
+                          top-notch solutions.
+                        </p>
                       </div>
                     </li>
                     <li className="flex mt-5">
@@ -206,7 +209,13 @@ function About() {
                       </svg>
 
                       <div className="about_list_content pl-5 pr-2">
-                        <p>Self-thinking agile teams</p>
+                        <p>
+                          <strong>Customized Approach:</strong> Our commitment
+                          to understanding your unique business needs allows us
+                          to tailor our services and solutions accordingly,
+                          providing you with personalized and effective IT
+                          solutions.
+                        </p>
                       </div>
                     </li>
                     <li className="flex mt-5">
@@ -223,7 +232,35 @@ function About() {
                       </svg>
 
                       <div className="about_list_content pl-5 pr-2">
-                        <p>Self-thinking agile teams</p>
+                        <p>
+                          <strong>Timely Delivery:</strong> We value your time
+                          and prioritize timely project completion, ensuring
+                          that your IT initiatives are implemented efficiently,
+                          enabling you to stay ahead of your.
+                        </p>
+                      </div>
+                    </li>
+                    <li className="flex mt-5">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-1.25 17.292l-4.5-4.364 1.857-1.858 2.643 2.506 5.643-5.784 1.857 1.857-7.5 7.643z"
+                          fill="rgb(1, 104, 198)"
+                        />
+                      </svg>
+
+                      <div className="about_list_content pl-5 pr-2">
+                        <p>
+                          <strong>Exceptional Support:</strong> Our dedicated
+                          support team is always ready to assist you, providing
+                          ongoing maintenance, updates, and responsive
+                          assistance to ensure your IT systems run smoothly,
+                          giving you peace of mind.
+                        </p>
                       </div>
                     </li>
                   </ul>
@@ -232,7 +269,7 @@ function About() {
             </div>
           </div>
         </section>
-      </>
+      </div>
     </div>
   );
 }

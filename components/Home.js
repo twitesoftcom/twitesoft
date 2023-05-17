@@ -1,17 +1,25 @@
 import Image from "next/image";
-import shapeImage1 from "/public/images/shape/shape-1.svg";
-import shapeImage2 from "/public/images/shape/shape-2.svg";
-import shapeImage3 from "/public/images/shape/shape-3.svg";
-import shapeImage4 from "/public/images/shape/shape-4.svg";
-import shapeImage5 from "/public/images/shape/shape-1.svg";
-import shapeImage6 from "/public/images/shape/shape-2.svg";
-import shapeImage7 from "/public/images/shape/shape-3.svg";
-import shapeImage8 from "/public/images/shape/shape-4.svg";
-import shapeImage9 from "/public/images/shape/shape-2.svg";
-import shapeImage10 from "/public/images/shape/shape-3.svg";
-import shapeImage11 from "/public/images/shape/shape-1.svg";
+import {
+  default as shapeImage1,
+  default as shapeImage11,
+  default as shapeImage5,
+} from "/public/images/shape/shape-1.svg";
+import {
+  default as shapeImage2,
+  default as shapeImage6,
+  default as shapeImage9,
+} from "/public/images/shape/shape-2.svg";
+import {
+  default as shapeImage10,
+  default as shapeImage3,
+  default as shapeImage7,
+} from "/public/images/shape/shape-3.svg";
+import {
+  default as shapeImage4,
+  default as shapeImage8,
+} from "/public/images/shape/shape-4.svg";
 
-import headerImage from "/public/images/header-image.svg";
+import headerImage from "/public/images/home.png";
 
 function Home() {
   return (
@@ -69,23 +77,25 @@ function Home() {
                       </div>
                       <ul className="dynamic-txts text-xl sm:text-xl md:text-5xl lg:text-4xl xl:text-4xl font-extrabold">
                         <li className="text-[#f75593]">
-                          <span>SaaS with pleasure</span>
+                          <span>SaaS Application</span>
                         </li>
                         <li className="text-[#2ea7f3]">
-                          <span>Iconic websites</span>
+                          <span>Iconic Websites</span>
                         </li>
                         <li className="text-[#f78d94]">
-                          <span>IOS & android apps</span>
+                          <span>IOS & Android Apps</span>
                         </li>
                         <li className="text-[#bf94d4]">
-                          <span>Software development </span>
+                          <span>Software Solutions </span>
                         </li>
                       </ul>
                     </div>
 
                     <p className="mt-8 lg:mr-8">
-                      Our dedicated IT teams will give you the power of next generation software
-                      development solutions to help your business stand out.
+                      Unlock the full potential of technology with our
+                      comprehensive IT services, encompassing web development,
+                      software solutions, and mobile app development, tailored
+                      to drive your digital success.
                     </p>
                     <div className="hero_btn mt-10">
                       <a className="main-btn" href="#0">
@@ -96,11 +106,14 @@ function Home() {
                 </div>
               </div>
             </div>
-            <div className="header_shape hidden lg:block"></div>
 
             <div className="header_image flex items-center">
               <div className="image 2xl:pl-25">
-                <Image src={headerImage} alt="hader image" />
+                <Image
+                  style={{ width: "600px" }}
+                  src={headerImage}
+                  alt="hader image"
+                />
               </div>
             </div>
           </div>
