@@ -10,7 +10,7 @@ function Team() {
   return (
     <div>
       <>
-        <section id="team" className="team_area bg-gray pt-12 pb-12">
+        <section id="team" className="team_area bg-gray pt-24 pb-24">
           <div className="container">
             <div className="row justify-center">
               <div className="w-full lg:w-1/2">

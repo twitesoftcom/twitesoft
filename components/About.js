@@ -4,7 +4,7 @@ import aboutImage from "/public/images/about.svg";
 function About() {
   return (
     <div>
-      <div className="full_about">
+      <div className="full_about pt-5 pb-12">
         <section className="pt-12" id="about">
           <div className="container">
             <div className="row justify-center">
@@ -154,7 +154,7 @@ function About() {
           </div>
         </section>
 
-        <section id="why" className="about_area pt-50 relative">
+        <section id="why" className="about_area pt-12 relative">
           <div className="about_image flex items-end justify-end">
             <div className="image lg:pr-13">
               <Image src={aboutImage} alt="about image" />

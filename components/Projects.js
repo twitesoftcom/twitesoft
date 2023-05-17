@@ -6,16 +6,17 @@ function Projects() {
   return (
     <div>
       <>
-        <section id="projects" className="work_area bg-white pt-12 pb-12">
+        <section id="projects" className="work_area bg-white pt-24 pb-24">
           <div className="container">
             <div className="row justify-center">
               <div className="w-ull lg:w-1/2">
                 <div className="section_title text-center pb-6">
                   <h4 className="main_title">Some of Our Recent Works</h4>
                   <p className="text-[17px]">
-                    We are proud to work with truly innovative clients and the
-                    products we truly believe in. Here are just a few of the
-                    projects we’ve had the privilege to work with.
+                    Take a glimpse into our portfolio showcasing our recent
+                    works, exemplifying our expertise and innovative solutions
+                    across web development, software projects, and mobile app
+                    development.
                   </p>
                 </div>
               </div>
@@ -37,7 +38,7 @@ function Projects() {
                         <div className="about_content mx-4 ">
                           <div className="section_title pb-2">
                             <h4 className="text-xl lg:text-2xl md:text-xl sm:text-[16px] font-bold ">
-                              POS- point of sale
+                              Potumia - Inventory Management System
                             </h4>
                           </div>
                           <p className="text-sm sm:text-sm mb-3">
@@ -69,7 +70,7 @@ function Projects() {
                         <div className="about_content mx-4 ">
                           <div className="section_title pb-2">
                             <h4 className="text-xl lg:text-2xl md:text-xl sm:text-[16px] font-bold ">
-                              POS- point of sale
+                              Blogen - AI Based Article Writing
                             </h4>
                           </div>
                           <p className="text-sm sm:text-sm mb-3">
@@ -101,7 +102,7 @@ function Projects() {
                         <div className="about_content mx-4 ">
                           <div className="section_title pb-2">
                             <h4 className="text-xl lg:text-2xl md:text-xl sm:text-[16px] font-bold ">
-                              POS- point of sale
+                              Art of CSE - Elearning platform
                             </h4>
                           </div>
                           <p className="text-sm sm:text-sm mb-3">
