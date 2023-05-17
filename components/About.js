@@ -4,14 +4,157 @@ import aboutImage from "/public/images/about.svg";
 function About() {
   return (
     <div>
-      <div className="full_about pt-5 pb-12">
+      <div className="full_about pt-24 pb-24">
+        <div className="row justify-center pb-12">
+          <div className="w-full lg:w-1/2">
+            <div className="section_title text-center pb-6">
+              <h5 className="sub_title">About</h5>
+              <h4 className="main_title">Your Goal is Our Achievement</h4>
+            </div>
+          </div>
+        </div>
+
+        <section id="why" className="about_area relative">
+          <div className="about_image flex items-end justify-end">
+            <div className="image lg:pr-13">
+              <Image src={aboutImage} alt="about image" />
+            </div>
+          </div>
+          <div className="container">
+            <div className="row justify-end">
+              <div className="w-full lg:w-1/2">
+                <div className="about_content mx-4 pt-11 lg:pt-15 lg:pb-15">
+                  <div className="text-xl font-semibold">
+                    <h4>Why Choose Us</h4>
+                  </div>
+                  <ul className="about_list pt-3">
+                    <li className="flex mt-5">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="26"
+                        height="24"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-1.25 17.292l-4.5-4.364 1.857-1.858 2.643 2.506 5.643-5.784 1.857 1.857-7.5 7.643z"
+                          fill="rgb(1, 104, 198)"
+                        />
+                      </svg>
+
+                      <div className="about_list_content pl-5 pr-2">
+                        <p>
+                          <strong>Technical Excellence:</strong> We take pride
+                          in our team's exceptional technical prowess, with a
+                          deep understanding of the latest technologies and
+                          industry best practices, ensuring the delivery of
+                          top-notch solutions.
+                        </p>
+                      </div>
+                    </li>
+                    <li className="flex mt-5">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="26"
+                        height="24"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-1.25 17.292l-4.5-4.364 1.857-1.858 2.643 2.506 5.643-5.784 1.857 1.857-7.5 7.643z"
+                          fill="rgb(1, 104, 198)"
+                        />
+                      </svg>
+
+                      <div className="about_list_content pl-5 pr-2">
+                        <p>
+                          <strong>Customized Approach:</strong> Our commitment
+                          to understanding your unique business needs allows us
+                          to tailor our services and solutions accordingly,
+                          providing you with personalized and effective IT
+                          solutions.
+                        </p>
+                      </div>
+                    </li>
+                    <li className="flex mt-5">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-1.25 17.292l-4.5-4.364 1.857-1.858 2.643 2.506 5.643-5.784 1.857 1.857-7.5 7.643z"
+                          fill="rgb(1, 104, 198)"
+                        />
+                      </svg>
+
+                      <div className="about_list_content pl-5 pr-2">
+                        <p>
+                          <strong>Timely Delivery:</strong> We value your time
+                          and prioritize timely project completion, ensuring
+                          that your IT initiatives are implemented efficiently,
+                          enabling you to stay ahead of your competition.
+                        </p>
+                      </div>
+                    </li>
+                    <li className="flex mt-5">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="29"
+                        height="24"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-1.25 17.292l-4.5-4.364 1.857-1.858 2.643 2.506 5.643-5.784 1.857 1.857-7.5 7.643z"
+                          fill="rgb(1, 104, 198)"
+                        />
+                      </svg>
+
+                      <div className="about_list_content pl-5 pr-2">
+                        <p>
+                          <strong>Exceptional Support:</strong> Our dedicated
+                          support team is always ready to assist you, providing
+                          ongoing maintenance, updates, and responsive
+                          assistance to ensure your IT systems run smoothly,
+                          giving you peace of mind.
+                        </p>
+                      </div>
+                    </li>
+                    <li className="flex mt-5">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="31"
+                        height="24"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-1.25 17.292l-4.5-4.364 1.857-1.858 2.643 2.506 5.643-5.784 1.857 1.857-7.5 7.643z"
+                          fill="rgb(1, 104, 198)"
+                        />
+                      </svg>
+
+                      <div className="about_list_content pl-5 pr-2">
+                        <p>
+                          <strong>Collaborative Approach:</strong> We believe in
+                          fostering strong partnerships with our clients,
+                          working closely together throughout the project
+                          lifecycle to ensure transparent communication,
+                          alignment of goals, and a successful outcome.
+                        </p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <section className="pt-12" id="about">
           <div className="container">
             <div className="row justify-center">
               <div className="w-full lg:w-1/2">
                 <div className="section_title text-center pb-6">
-                  <h5 className="sub_title">About</h5>
-                  <h4 className="main_title">Work Process</h4>
+                  <h4 className="main_title">Our Work Process</h4>
                 </div>
               </div>
             </div>
@@ -148,122 +291,6 @@ function About() {
                       {/* that meets your business objectives. */}
                     </p>
                   </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section id="why" className="about_area pt-12 relative">
-          <div className="about_image flex items-end justify-end">
-            <div className="image lg:pr-13">
-              <Image src={aboutImage} alt="about image" />
-            </div>
-          </div>
-          <div className="container">
-            <div className="row justify-end">
-              <div className="w-full lg:w-1/2">
-                <div className="about_content mx-4 pt-11 lg:pt-15 lg:pb-15">
-                  <div className="section_title pb-9">
-                    <h4 className="main_title">Your Goal is Our Achievement</h4>
-                    {/* <h5 className="sub_title">Why Choose Us</h5> */}
-                  </div>
-                  <div className="text-xl font-semibold mt-6">
-                    <h4>Why Choose Us</h4>
-                  </div>
-                  <ul className="about_list pt-3">
-                    <li className="flex mt-5">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                      >
-                        <path
-                          d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-1.25 17.292l-4.5-4.364 1.857-1.858 2.643 2.506 5.643-5.784 1.857 1.857-7.5 7.643z"
-                          fill="rgb(1, 104, 198)"
-                        />
-                      </svg>
-
-                      <div className="about_list_content pl-5 pr-2">
-                        <p>
-                          <strong>Technical Excellence:</strong> We take pride
-                          in our team's exceptional technical prowess, with a
-                          deep understanding of the latest technologies and
-                          industry best practices, ensuring the delivery of
-                          top-notch solutions.
-                        </p>
-                      </div>
-                    </li>
-                    <li className="flex mt-5">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                      >
-                        <path
-                          d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-1.25 17.292l-4.5-4.364 1.857-1.858 2.643 2.506 5.643-5.784 1.857 1.857-7.5 7.643z"
-                          fill="rgb(1, 104, 198)"
-                        />
-                      </svg>
-
-                      <div className="about_list_content pl-5 pr-2">
-                        <p>
-                          <strong>Customized Approach:</strong> Our commitment
-                          to understanding your unique business needs allows us
-                          to tailor our services and solutions accordingly,
-                          providing you with personalized and effective IT
-                          solutions.
-                        </p>
-                      </div>
-                    </li>
-                    <li className="flex mt-5">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                      >
-                        <path
-                          d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-1.25 17.292l-4.5-4.364 1.857-1.858 2.643 2.506 5.643-5.784 1.857 1.857-7.5 7.643z"
-                          fill="rgb(1, 104, 198)"
-                        />
-                      </svg>
-
-                      <div className="about_list_content pl-5 pr-2">
-                        <p>
-                          <strong>Timely Delivery:</strong> We value your time
-                          and prioritize timely project completion, ensuring
-                          that your IT initiatives are implemented efficiently,
-                          enabling you to stay ahead of your.
-                        </p>
-                      </div>
-                    </li>
-                    <li className="flex mt-5">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                      >
-                        <path
-                          d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-1.25 17.292l-4.5-4.364 1.857-1.858 2.643 2.506 5.643-5.784 1.857 1.857-7.5 7.643z"
-                          fill="rgb(1, 104, 198)"
-                        />
-                      </svg>
-
-                      <div className="about_list_content pl-5 pr-2">
-                        <p>
-                          <strong>Exceptional Support:</strong> Our dedicated
-                          support team is always ready to assist you, providing
-                          ongoing maintenance, updates, and responsive
-                          assistance to ensure your IT systems run smoothly,
-                          giving you peace of mind.
-                        </p>
-                      </div>
-                    </li>
-                  </ul>
                 </div>
               </div>
             </div>
