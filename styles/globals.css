@@ -46,18 +46,32 @@
 }
 .header_hero {
   min-height: 100vh;
-  background: rgb(2,0,36);
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(224,245,241,1) 0%, rgba(255,244,244,1) 100%);
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(224, 245, 241, 1) 0%,
+    rgba(255, 244, 244, 1) 100%
+  );
 }
 .services_area {
   min-height: 100vh;
-  background: rgb(2,0,36);
+  background: rgb(2, 0, 36);
   /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(252,244,244,1) 0%, rgba(230,245,242,1) 100%); */
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(252,244,244,0.7595413165266106) 0%, rgba(232,245,242,0.8071603641456583) 100%);
-
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(252, 244, 244, 0.7595413165266106) 0%,
+    rgba(232, 245, 242, 0.8071603641456583) 100%
+  );
 }
 .team_area {
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(252,244,244,0.7595413165266106) 0%, rgba(236,245,242,1) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(252, 244, 244, 0.7595413165266106) 0%,
+    rgba(236, 245, 242, 1) 100%
+  );
 }
 
 .service_svg {
@@ -85,11 +99,65 @@
   position: relative;
 }
 
+/* Start CSS For Pages */
+.page .page_area {
+  padding: 150px 0 50px 0;
+}
+/* End CSS for Pages */
+
 /*............. Navbar........  css */
 .mobile-menu {
   position: absolute;
   top: 0;
   left: 450px;
+}
+.menu-toggle {
+  background-color: #fff;
+  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color),
+    0 4px 6px -4px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000),
+    var(--tw-shadow);
+}
+/*------------------ contact us section ---------- */
+.contact-image {
+  height: 365px;
+}
+.mini-title {
+  margin-bottom: 0.25rem;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+  --tw-text-opacity: 1;
+  color: rgb(1, 104, 198, var(--tw-text-opacity));
+}
+.column-title {
+  margin-bottom: 1.5rem;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgb(12 19 39 / var(--tw-text-opacity));
+}
+
+@media (min-width: 768px) {
+  .column-title {
+    font-size: 38px;
+  }
+
+  .column-title {
+    line-height: 56px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .column-title {
+    font-size: 44px;
+  }
+
+  .column-title {
+    line-height: 61.6px;
+  }
 }
 /*------------------ Project arrow icon ---------- */
 .work_content:hover .arrow_svg_icon {

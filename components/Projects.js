@@ -6,17 +6,16 @@ function Projects() {
   return (
     <div>
       <>
-        <section id="projects" className="work_area bg-white pt-24 pb-24">
+        <section id="projects" className="work_area page_area bg-white pt-24 pb-24">
           <div className="container">
             <div className="row justify-center">
               <div className="w-ull lg:w-1/2">
                 <div className="section_title text-center pb-6">
                   <h4 className="main_title">Some of Our Recent Works</h4>
                   <p className="text-[17px]">
-                    Take a glimpse into our portfolio showcasing our recent
-                    works, exemplifying our expertise and innovative solutions
-                    across web development, software projects, and mobile app
-                    development.
+                    Take a glimpse into our portfolio showcasing our recent works, exemplifying our
+                    expertise and innovative solutions across web development, software projects,
+                    and mobile app development.
                   </p>
                 </div>
               </div>
@@ -28,11 +27,7 @@ function Projects() {
                   {/*------------------ project content------------*/}
                   <div className="flex">
                     <div className="flex flex-col md:flex-row  p-3">
-                      <Image
-                        src={projectImage}
-                        alt="project-image"
-                        className="w-48 h-48 md:w-96"
-                      />
+                      <Image src={projectImage} alt="project-image" className="w-48 h-48 md:w-96" />
 
                       <div className="flex flex-col justify-start p-2">
                         <div className="about_content mx-4 ">
@@ -42,16 +37,13 @@ function Projects() {
                             </h4>
                           </div>
                           <p className="text-sm sm:text-sm mb-3">
-                            The point of sale (POS) or point of purchase (POP)
-                            is the time and place at which a retail transaction
-                            is completed. At the point of sale, the merchant
-                            calculates the amount owed by the customer,
-                            indicates that amount, may prepare an invoice for
-                            the customer
+                            The point of sale (POS) or point of purchase (POP) is the time and place
+                            at which a retail transaction is completed. At the point of sale, the
+                            merchant calculates the amount owed by the customer, indicates that
+                            amount, may prepare an invoice for the customer
                           </p>
                           <p>
-                            <span className="font-bold">Utilized:</span> PHP,
-                            Laravel, Vuejs.
+                            <span className="font-bold">Utilized:</span> PHP, Laravel, Vuejs.
                           </p>
                         </div>
                       </div>
@@ -60,11 +52,7 @@ function Projects() {
                   {/*------------------ project content------------*/}
                   <div className="flex">
                     <div className="flex flex-col md:flex-row  p-3">
-                      <Image
-                        src={projectImage}
-                        alt="project-image"
-                        className="w-48 h-48 md:w-96"
-                      />
+                      <Image src={projectImage} alt="project-image" className="w-48 h-48 md:w-96" />
 
                       <div className="flex flex-col justify-start p-2">
                         <div className="about_content mx-4 ">
@@ -74,16 +62,13 @@ function Projects() {
                             </h4>
                           </div>
                           <p className="text-sm sm:text-sm mb-3">
-                            The point of sale (POS) or point of purchase (POP)
-                            is the time and place at which a retail transaction
-                            is completed. At the point of sale, the merchant
-                            calculates the amount owed by the customer,
-                            indicates that amount, may prepare an invoice for
-                            the customer
+                            The point of sale (POS) or point of purchase (POP) is the time and place
+                            at which a retail transaction is completed. At the point of sale, the
+                            merchant calculates the amount owed by the customer, indicates that
+                            amount, may prepare an invoice for the customer
                           </p>
                           <p>
-                            <span className="font-bold">Utilized:</span> PHP,
-                            Laravel, Vuejs.
+                            <span className="font-bold">Utilized:</span> PHP, Laravel, Vuejs.
                           </p>
                         </div>
                       </div>
@@ -92,11 +77,7 @@ function Projects() {
                   {/*------------------ project content------------*/}
                   <div className="flex">
                     <div className="flex flex-col md:flex-row  p-3">
-                      <Image
-                        src={projectImage}
-                        alt="project-image"
-                        className="w-48 h-48 md:w-96"
-                      />
+                      <Image src={projectImage} alt="project-image" className="w-48 h-48 md:w-96" />
 
                       <div className="flex flex-col justify-start p-2">
                         <div className="about_content mx-4 ">
@@ -106,16 +87,13 @@ function Projects() {
                             </h4>
                           </div>
                           <p className="text-sm sm:text-sm mb-3">
-                            The point of sale (POS) or point of purchase (POP)
-                            is the time and place at which a retail transaction
-                            is completed. At the point of sale, the merchant
-                            calculates the amount owed by the customer,
-                            indicates that amount, may prepare an invoice for
-                            the customer
+                            The point of sale (POS) or point of purchase (POP) is the time and place
+                            at which a retail transaction is completed. At the point of sale, the
+                            merchant calculates the amount owed by the customer, indicates that
+                            amount, may prepare an invoice for the customer
                           </p>
                           <p>
-                            <span className="font-bold">Utilized:</span> PHP,
-                            Laravel, Vuejs.
+                            <span className="font-bold">Utilized:</span> PHP, Laravel, Vuejs.
                           </p>
                         </div>
                       </div>
@@ -124,11 +102,7 @@ function Projects() {
                   {/*------------------ project content------------*/}
                   <div className="flex">
                     <div className="flex flex-col md:flex-row  p-3">
-                      <Image
-                        src={projectImage}
-                        alt="project-image"
-                        className="w-48 h-48 md:w-96"
-                      />
+                      <Image src={projectImage} alt="project-image" className="w-48 h-48 md:w-96" />
 
                       <div className="flex flex-col justify-start p-2">
                         <div className="about_content mx-4 ">
@@ -138,16 +112,13 @@ function Projects() {
                             </h4>
                           </div>
                           <p className="text-sm sm:text-sm mb-3">
-                            The point of sale (POS) or point of purchase (POP)
-                            is the time and place at which a retail transaction
-                            is completed. At the point of sale, the merchant
-                            calculates the amount owed by the customer,
-                            indicates that amount, may prepare an invoice for
-                            the customer
+                            The point of sale (POS) or point of purchase (POP) is the time and place
+                            at which a retail transaction is completed. At the point of sale, the
+                            merchant calculates the amount owed by the customer, indicates that
+                            amount, may prepare an invoice for the customer
                           </p>
                           <p>
-                            <span className="font-bold">Utilized:</span> PHP,
-                            Laravel, Vuejs.
+                            <span className="font-bold">Utilized:</span> PHP, Laravel, Vuejs.
                           </p>
                         </div>
                       </div>

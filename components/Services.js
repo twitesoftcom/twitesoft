@@ -2,7 +2,7 @@ function Services() {
   return (
     <div>
       <>
-        <section id="services" className="services_area bg-gray pt-24 pb-24">
+        <section id="services" className="services_area page_area bg-gray pt-24 pb-24">
           <div className="container">
             <div className="row justify-center">
               <div className="w-full lg:w-1/2">
@@ -51,9 +51,8 @@ function Services() {
                       Web Development
                     </h3>
                     <p className="mt-4">
-                      Unlock the full potential of your online presence with our
-                      expert web development services, tailored to your business
-                      needs.
+                      Unlock the full potential of your online presence with our expert web
+                      development services, tailored to your business needs.
                     </p>
                   </div>
                 </div>
@@ -98,9 +97,8 @@ function Services() {
                       Software Development
                     </h3>
                     <p className="mt-4">
-                      Experience transformative software solutions tailored to
-                      your business goals, delivered by our expert team of
-                      developers.
+                      Experience transformative software solutions tailored to your business goals,
+                      delivered by our expert team of developers.
                     </p>
                   </div>
                 </div>
@@ -144,8 +142,8 @@ function Services() {
                       Mobile Apps
                     </h3>
                     <p className="mt-4">
-                      Elevate your business reach and engage customers on the go
-                      with our innovative mobile app development solutions.
+                      Elevate your business reach and engage customers on the go with our innovative
+                      mobile app development solutions.
                     </p>
                   </div>
                 </div>
@@ -190,8 +188,8 @@ function Services() {
                       SEO Consultancy
                     </h3>
                     <p className="mt-4">
-                      Boost your online visibility and outrank competitors with
-                      our strategic SEO consultancy services.
+                      Boost your online visibility and outrank competitors with our strategic SEO
+                      consultancy services.
                     </p>
                   </div>
                 </div>
@@ -235,9 +233,8 @@ function Services() {
                       Graphic Design
                     </h3>
                     <p className="mt-4">
-                      Capture attention and leave a lasting impression with our
-                      captivating and professionally crafted graphic design
-                      solutions.
+                      Capture attention and leave a lasting impression with our captivating and
+                      professionally crafted graphic design solutions.
                     </p>
                   </div>
                 </div>
@@ -281,8 +278,8 @@ function Services() {
                       Business Consultancy
                     </h3>
                     <p className="mt-4">
-                      Navigate the complex world of technology with confidence
-                      through our comprehensive IT consultancy services.
+                      Navigate the complex world of technology with confidence through our
+                      comprehensive IT consultancy services.
                     </p>
                   </div>
                 </div>

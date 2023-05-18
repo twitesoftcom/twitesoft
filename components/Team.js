@@ -10,7 +10,7 @@ function Team() {
   return (
     <div>
       <>
-        <section id="team" className="team_area bg-gray pt-24 pb-24">
+        <section id="team" className="team_area page_area pt-24 pb-24">
           <div className="container">
             <div className="row justify-center">
               <div className="w-full lg:w-1/2">
@@ -26,11 +26,7 @@ function Team() {
                   <div className="single_team_item mx-auto">
                     <div className="single_team mx-3">
                       <div className="team_image relative">
-                        <Image
-                          src={teamImg1}
-                          alt="team image"
-                          className="w-full"
-                        />
+                        <Image src={teamImg1} alt="team image" className="w-full" />
                         <ul className="social absolute top-4 right-8">
                           <li>
                             <a
@@ -114,10 +110,7 @@ function Team() {
                       </div>
                       <div className="team_content py-5 px-8 relative">
                         <h4 className="team_name text-xl md:text-2xl">
-                          <a
-                            href="#"
-                            className="text-black group-hover:text-white"
-                          >
+                          <a href="#" className="text-black group-hover:text-white">
                             Al-Mamun Sarkar
                           </a>
                         </h4>
@@ -133,11 +126,7 @@ function Team() {
                   <div className="single_team_item mx-auto">
                     <div className="single_team mx-3">
                       <div className="team_image relative">
-                        <Image
-                          src={teamImg2}
-                          alt="team image"
-                          className="w-full"
-                        />
+                        <Image src={teamImg2} alt="team image" className="w-full" />
                         <ul className="social absolute top-4 right-8">
                           <li>
                             <a
@@ -217,10 +206,7 @@ function Team() {
                       </div>
                       <div className="team_content py-5 px-8 relative">
                         <h4 className="team_name text-xl md:text-2xl">
-                          <a
-                            href="#"
-                            className="text-black group-hover:text-white"
-                          >
+                          <a href="#" className="text-black group-hover:text-white">
                             Abdur Rahman
                           </a>
                         </h4>
@@ -236,11 +222,7 @@ function Team() {
                   <div className="single_team_item mx-auto">
                     <div className="single_team mx-3">
                       <div className="team_image relative">
-                        <Image
-                          src={teamImg3}
-                          alt="team image"
-                          className="w-full"
-                        />
+                        <Image src={teamImg3} alt="team image" className="w-full" />
                         <ul className="social absolute top-4 right-8">
                           <li>
                             <a
@@ -324,10 +306,7 @@ function Team() {
                       </div>
                       <div className="team_content py-5 px-8 relative">
                         <h4 className="team_name text-xl md:text-2xl">
-                          <a
-                            href="#"
-                            className="text-black group-hover:text-white"
-                          >
+                          <a href="#" className="text-black group-hover:text-white">
                             Md. Tipu Sultan
                           </a>
                         </h4>
@@ -343,11 +322,7 @@ function Team() {
                   <div className="single_team_item mx-auto">
                     <div className="single_team mx-3">
                       <div className="team_image relative">
-                        <Image
-                          src={teamImg6}
-                          alt="team image"
-                          className="w-full"
-                        />
+                        <Image src={teamImg6} alt="team image" className="w-full" />
                         <ul className="social absolute top-4 right-8">
                           <li>
                             <a
@@ -427,10 +402,7 @@ function Team() {
                       </div>
                       <div className="team_content py-5 px-8 relative">
                         <h4 className="team_name text-xl md:text-2xl">
-                          <a
-                            href="#"
-                            className="text-black group-hover:text-white"
-                          >
+                          <a href="#" className="text-black group-hover:text-white">
                             Al-Hasan Sarkar
                           </a>
                         </h4>
@@ -446,11 +418,7 @@ function Team() {
                   <div className="single_team_item mx-auto">
                     <div className="single_team mx-3">
                       <div className="team_image relative">
-                        <Image
-                          src={teamImg5}
-                          alt="team image"
-                          className="w-full"
-                        />
+                        <Image src={teamImg5} alt="team image" className="w-full" />
                         <ul className="social absolute top-4 right-8">
                           <li>
                             <a
@@ -534,10 +502,7 @@ function Team() {
                       </div>
                       <div className="team_content py-5 px-8 relative">
                         <h4 className="team_name text-xl md:text-2xl">
-                          <a
-                            href="#"
-                            className="text-black group-hover:text-white"
-                          >
+                          <a href="#" className="text-black group-hover:text-white">
                             Md. Alamin Islam
                           </a>
                         </h4>
@@ -553,11 +518,7 @@ function Team() {
                   <div className="single_team_item mx-auto">
                     <div className="single_team mx-3">
                       <div className="team_image relative">
-                        <Image
-                          src={teamImg4}
-                          alt="team image"
-                          className="w-full"
-                        />
+                        <Image src={teamImg4} alt="team image" className="w-full" />
                         <ul className="social absolute top-4 right-8">
                           <li>
                             <a
@@ -619,11 +580,7 @@ function Team() {
                             </a>
                           </li>
                           <li>
-                            <a
-                              href="https://github.com/rajibcsit"
-                              target="_blank"
-                              rel="noreferrer"
-                            >
+                            <a href="https://github.com/rajibcsit" target="_blank" rel="noreferrer">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="24"
@@ -641,11 +598,8 @@ function Team() {
                       </div>
                       <div className="team_content py-5 px-8 relative">
                         <h4 className="team_name text-xl md:text-2xl">
-                          <a
-                            href="#"
-                            className="text-black group-hover:text-white"
-                          >
-                            Md. Rajib Mia Rahid
+                          <a href="#" className="text-black group-hover:text-white">
+                            Rajib Mia Rahid
                           </a>
                         </h4>
                         <p className="mt-2 transition-all duration-300 group-hover:text-white">
