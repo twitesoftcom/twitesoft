@@ -4,7 +4,7 @@ function Contact() {
   return (
     <div>
       <>
-        <section id="contact" className="contact_area relative pt-24 pb-24">
+        <section id="contact" className="contact_area page_area relative pt-24 pb-24">
           <div className="contact_image flex items-center justify-end">
             <div className="image lg:pr-13">
               <Image src={contactImage} alt="contact-image" className="contact-image" />

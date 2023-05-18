@@ -69,12 +69,7 @@ export default function Navbar() {
                   <div className="flex lg:flex-1  items-center justify-center sm:items-stretch  sm:justify-between">
                     <div className="flex flex-shrink-0 items-center">
                       <Link href="/">
-                        <Image
-                          src={websiteLogo}
-                          alt="logo"
-                          width={150}
-                          height={140}
-                        />
+                        <Image src={websiteLogo} alt="logo" width={150} height={140} />
                       </Link>
                     </div>
 
@@ -85,10 +80,7 @@ export default function Navbar() {
                           className="items-center content-start mr-auto lg:justify-end navbar-nav lg:flex"
                         >
                           {navigation.map((item) => (
-                            <li
-                              className="nav-item ml-5 lg:ml-11"
-                              key={item.name}
-                            >
+                            <li className="nav-item ml-5 lg:ml-11" key={item.name}>
                               <a className="page-scroll" href={item.href}>
                                 {item.name}
                               </a>
@@ -108,10 +100,7 @@ export default function Navbar() {
                       key={item.name}
                       as="a"
                       href={item.href}
-                      className={classNames(
-                        item.current ? "" : "",
-                        "block px-3 py-2 text-sm"
-                      )}
+                      className={classNames(item.current ? "" : "", "block px-3 py-2 text-sm")}
                       aria-current={item.current ? "page" : undefined}
                     >
                       {item.name}
