@@ -164,13 +164,12 @@ function Projects() {
                   <button className="main-btn contact-btn bg-[rgb(56,66,77)] inline-flex items-center px-4 py-2 ">
                     View More Projects
                     <svg
-                      className="ml-2"
+                      className="ml-2 bi bi-arrow-right"
                       color="white"
                       xmlns="http://www.w3.org/2000/svg"
                       width="16"
                       height="16"
                       fill="currentColor"
-                      className="bi bi-arrow-right"
                       viewBox="0 0 16 16"
                     >
                       <path

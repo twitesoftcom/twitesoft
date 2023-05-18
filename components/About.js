@@ -44,8 +44,8 @@ function About() {
                       <div className="about_list_content pl-5 pr-2">
                         <p>
                           <strong>Technical Excellence:</strong> We take pride
-                          in our team's exceptional technical prowess, with a
-                          deep understanding of the latest technologies and
+                          in our team&apos;s exceptional technical prowess, with
+                          a deep understanding of the latest technologies and
                           industry best practices, ensuring the delivery of
                           top-notch solutions.
                         </p>
