@@ -1,3 +1,176 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.hero_title {
+  color: rgb(1, 104, 198);
+}
+/* Work Banner css */
+@media all and (max-width: 396px) {
+  .shape_1 {
+    top: 70px;
+    left: 315px;
+  }
+  .shape_2 {
+    top: 150px;
+    left: 335px;
+  }
+  .shape_3 {
+    top: 190px;
+    left: 95px;
+  }
+  .shape_4 {
+    top: 95px;
+    left: 95px;
+  }
+  .shape_5 {
+    top: 106px;
+    left: 190px;
+  }
+  .shape_6 {
+    top: 59px;
+    left: 190px;
+  }
+  .shape_7 {
+    top: 330px;
+    left: 250px;
+  }
+  .dynamic-txts {
+    margin-top: -31px !important;
+  }
+}
+
+/* Work Process css */
+.services_icon {
+  position: relative;
+}
+.header_hero {
+  min-height: 100vh;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(224,245,241,1) 0%, rgba(255,244,244,1) 100%);
+}
+.services_area {
+  min-height: 100vh;
+  background: rgb(2,0,36);
+  /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(252,244,244,1) 0%, rgba(230,245,242,1) 100%); */
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(252,244,244,0.7595413165266106) 0%, rgba(232,245,242,0.8071603641456583) 100%);
+
+}
+.team_area {
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(252,244,244,0.7595413165266106) 0%, rgba(236,245,242,1) 100%);
+}
+
+.service_svg {
+  position: absolute;
+  top: 38px;
+  right: 36px;
+  z-index: 5;
+}
+
+.services_icon {
+  position: relative;
+}
+.service_svg_icon {
+  fill: #000;
+}
+.single_services {
+  min-height: 375px;
+}
+.single_services:hover .service_svg_icon {
+  fill: currentColor;
+  --tw-text-opacity: 1;
+  color: #fff;
+}
+.main_icon {
+  position: relative;
+}
+
+/*............. Navbar........  css */
+.mobile-menu {
+  position: absolute;
+  top: 0;
+  left: 450px;
+}
+/*------------------ Project arrow icon ---------- */
+.work_content:hover .arrow_svg_icon {
+  fill: currentColor;
+  --tw-text-opacity: 1;
+  color: #fff;
+}
+
+/*---------------- text animation start-------------------*/
+.wrapper {
+  display: flex;
+}
+
+.wrapper .dynamic-txts {
+  margin-left: 15px;
+  height: 85px;
+  line-height: 90px;
+  overflow: hidden;
+  margin-top: -25px;
+}
+.dynamic-txts li {
+  list-style: none;
+  /* color: rgb(1, 104, 198); */
+  font-weight: bold;
+  position: relative;
+  top: 0;
+  animation: slide 12s steps(4) infinite;
+}
+@keyframes slide {
+  100% {
+    top: -360px;
+  }
+}
+.dynamic-txts li span {
+  position: relative;
+  margin: 5px 0;
+  line-height: 90px;
+}
+.dynamic-txts li span::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  animation: typing 3s steps(10) infinite;
+}
+@keyframes typing {
+  40%,
+  60% {
+    left: calc(100% + 30px);
+  }
+  100% {
+    left: 0;
+  }
+}
+/*---------------- text animation End-------------------*/
+
+#nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+@media all and (max-width: 754px) {
+  .middle {
+    width: 95%;
+  }
+}
+
+@media all and (max-width: 506px) {
+  .mobile-menu {
+    position: absolute;
+    top: 0;
+    left: 350px;
+  }
+}
+@media all and (max-width: 396px) {
+  .mobile-menu {
+    position: absolute;
+    top: 0;
+    left: 335px;
+  }
+}

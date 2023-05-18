@@ -1180,6 +1180,7 @@ button {
 .main-btn:hover {
   --tw-text-opacity: 1;
   color: rgba(255, 255, 255, var(--tw-text-opacity));
+  background-color: rgb(1, 104, 198);
 }
 
 .main-btn {
@@ -1280,7 +1281,7 @@ button {
   font-size: 1rem;
   line-height: 1.5rem;
   --tw-text-opacity: 1;
-  color: rgba(249, 79, 79, var(--tw-text-opacity));
+  color: rgb(1, 104, 198, var(--tw-text-opacity));
 }
 
 @media (min-width: 720px) {
@@ -1292,7 +1293,7 @@ button {
 
 .section_title .main_title {
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 16px;
   line-height: 2rem;
   margin-top: 16px;
 }
@@ -1389,7 +1390,7 @@ button {
 
 .navbar-nav .nav-item a:hover {
   --tw-text-opacity: 1;
-  color: rgba(249, 79, 79, var(--tw-text-opacity));
+  color: rgb(1, 104, 198, var(--tw-text-opacity));
 }
 
 .navbar-nav .nav-item a {
@@ -1553,7 +1554,7 @@ button {
 
 .single_services:hover {
   --tw-border-opacity: 1;
-  border-color: rgba(249, 79, 79, var(--tw-border-opacity));
+  border-color: rgb(1, 104, 198, var(--tw-border-opacity));
 }
 
 .single_services {
@@ -1602,7 +1603,7 @@ button {
   position: relative;
 }
 
-.services_icon i {
+/* .services_icon i {
   font-size: 3rem;
   line-height: 1;
   position: absolute;
@@ -1626,25 +1627,24 @@ button {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
   transition-duration: 300ms;
-}
+} */
 
 .services_shape {
-  fill: #fff1f1;
+  fill: #e1e5f1;
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
   transition-duration: 300ms;
 }
 
-.single_services:hover .services_icon i {
+.single_services:hover .service_svg {
   --tw-text-opacity: 1;
-  color: rgba(255, 255, 255, var(--tw-text-opacity));
+  color: rgb(1, 104, 198, var(--tw-text-opacity));
 }
 
 .single_services:hover .services_shape {
   fill: currentColor;
   --tw-text-opacity: 1;
-  color: rgba(249, 79, 79, var(--tw-text-opacity));
+  color: rgb(1, 104, 198, var(--tw-text-opacity));
 }
 
 /* ========== about ========== */
@@ -1683,27 +1683,7 @@ button {
   }
 }
 
-.about_check i {
-  --tw-bg-opacity: 1;
-  background-color: rgba(249, 79, 79, var(--tw-bg-opacity));
-  border-radius: 9999px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 28px;
-  font-size: 1rem;
-  line-height: 1.5rem;
-  margin-top: 4px;
-  --tw-text-opacity: 1;
-  color: rgba(255, 255, 255, var(--tw-text-opacity));
-  width: 28px;
-}
-
 /* ======= work ======== */
-
-.single_item {
-  max-width: 370px;
-}
 
 .single_work {
   --tw-bg-opacity: 1;
@@ -1722,14 +1702,14 @@ button {
   position: relative;
 }
 
-.work_content .arrow {
+/* .work_content .arrow {
   --tw-bg-opacity: 1;
   background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
 }
 
 .work_content .arrow:hover {
   --tw-bg-opacity: 1;
-  background-color: rgba(249, 79, 79, var(--tw-bg-opacity));
+  background-color: rgb(1, 104, 198, var(--tw-bg-opacity));
 }
 
 .work_content .arrow {
@@ -1761,7 +1741,7 @@ button {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
   transition-duration: 300ms;
-}
+} */
 
 .work_title a {
   --tw-text-opacity: 1;
@@ -1770,7 +1750,7 @@ button {
 
 .work_title a:hover {
   --tw-text-opacity: 1;
-  color: rgba(249, 79, 79, var(--tw-text-opacity));
+  color: rgb(1, 104, 198, var(--tw-text-opacity));
 }
 
 /* ======== team ======= */
@@ -2173,7 +2153,7 @@ button {
 
 .single_team:hover {
   --tw-bg-opacity: 1;
-  background-color: rgba(249, 79, 79, var(--tw-bg-opacity));
+  background-color: rgb(1, 104, 198, var(--tw-bg-opacity));
 }
 
 .single_team:hover .group-hover\:bg-opacity-0 {
@@ -10030,7 +10010,7 @@ button {
 
 .team_image .social li a:hover {
   --tw-bg-opacity: 1;
-  background-color: rgba(249, 79, 79, var(--tw-bg-opacity));
+  background-color: rgb(1, 104, 198, var(--tw-bg-opacity));
 }
 
 .team_image .social li a {
@@ -10040,7 +10020,7 @@ button {
 
 .team_image .social li a:hover {
   --tw-border-opacity: 1;
-  border-color: rgba(249, 79, 79, var(--tw-border-opacity));
+  border-color: rgb(1, 104, 198, var(--tw-text-opacity));
 }
 
 .team_image .social li a {
@@ -10052,7 +10032,7 @@ button {
   justify-content: center;
   height: 36px;
   --tw-text-opacity: 1;
-  color: rgba(255, 255, 255, var(--tw-text-opacity));
+  color: rgb(1, 104, 198, var(--tw-text-opacity));
   width: 36px;
 }
 
@@ -18465,7 +18445,7 @@ button {
 
 /* =========== footer ========== */
 
-.subscribe-btn {
+/* .subscribe-btn {
   --tw-bg-opacity: 1;
   background-color: rgba(249, 79, 79, var(--tw-bg-opacity));
 }
@@ -18481,7 +18461,7 @@ button {
   padding-bottom: 16px;
   top: 4px;
   right: 4px;
-}
+} */
 
 @media (min-width: 720px) {
   .subscribe-btn {
@@ -18492,16 +18472,17 @@ button {
 
 .footer_social li a {
   --tw-bg-opacity: 1;
-  background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
+  background-color: rgba(56, 66, 77, var(--tw-bg-opacity));
   --tw-bg-opacity: 0.1;
 }
 
 .footer_social li a:hover {
-  --tw-bg-opacity: 1;
+  background-color: rgb(1, 104, 198);
 }
 
 .footer_social li a {
   border-radius: 9999px;
+  padding: 8px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -18512,7 +18493,7 @@ button {
 
 .footer_social li a:hover {
   --tw-text-opacity: 1;
-  color: rgba(249, 79, 79, var(--tw-text-opacity));
+  color: rgb(1, 104, 198, var(--tw-text-opacity));
 }
 
 .footer_social li a {

@@ -4,7 +4,7 @@ function Contact() {
   return (
     <div>
       <>
-        <section id="contact" className="contact_area relative pt-18 pb-120">
+        <section id="contact" className="contact_area relative pt-24 pb-24">
           <div className="contact_image flex items-center justify-end">
             <div className="image lg:pr-13">
               <Image src={contactImage} alt="contact-image" />
@@ -66,7 +66,10 @@ function Contact() {
                         <div className="w-full">
                           <div className="mx-3">
                             <div className="single_form mt-8">
-                              <button type="submit" className="main-btn contact-btn">
+                              <button
+                                type="submit"
+                                className="main-btn contact-btn bg-[rgb(56,66,77)]"
+                              >
                                 Submit
                               </button>
                             </div>
