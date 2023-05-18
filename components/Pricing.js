@@ -2,7 +2,7 @@ function Pricing() {
   return (
     <div>
       <>
-        <section id="pricing" className="pricing_area pt-120 pb-120">
+        <section id="pricing" className="pricing_area page_area pt-120 pb-120">
           <div className="container">
             <div className="row justify-center">
               <div className="w-full lg:w-1/2">

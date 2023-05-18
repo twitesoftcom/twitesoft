@@ -4,7 +4,7 @@ import aboutImage from "/public/images/about.svg";
 function About() {
   return (
     <div>
-      <div className="full_about pt-24 pb-24">
+      <div className="full_about page_area pt-24 pb-24">
         <div className="row justify-center pb-12">
           <div className="w-full lg:w-1/2">
             <div className="section_title text-center pb-6">
@@ -43,10 +43,9 @@ function About() {
 
                       <div className="about_list_content pl-5 pr-2">
                         <p>
-                          <strong>Technical Excellence:</strong> We take pride
-                          in our team&apos;s exceptional technical prowess, with
-                          a deep understanding of the latest technologies and
-                          industry best practices, ensuring the delivery of
+                          <strong>Technical Excellence:</strong> We take pride in our team&apos;s
+                          exceptional technical prowess, with a deep understanding of the latest
+                          technologies and industry best practices, ensuring the delivery of
                           top-notch solutions.
                         </p>
                       </div>
@@ -66,11 +65,9 @@ function About() {
 
                       <div className="about_list_content pl-5 pr-2">
                         <p>
-                          <strong>Customized Approach:</strong> Our commitment
-                          to understanding your unique business needs allows us
-                          to tailor our services and solutions accordingly,
-                          providing you with personalized and effective IT
-                          solutions.
+                          <strong>Customized Approach:</strong> Our commitment to understanding your
+                          unique business needs allows us to tailor our services and solutions
+                          accordingly, providing you with personalized and effective IT solutions.
                         </p>
                       </div>
                     </li>
@@ -89,10 +86,9 @@ function About() {
 
                       <div className="about_list_content pl-5 pr-2">
                         <p>
-                          <strong>Timely Delivery:</strong> We value your time
-                          and prioritize timely project completion, ensuring
-                          that your IT initiatives are implemented efficiently,
-                          enabling you to stay ahead of your competition.
+                          <strong>Timely Delivery:</strong> We value your time and prioritize timely
+                          project completion, ensuring that your IT initiatives are implemented
+                          efficiently, enabling you to stay ahead of your competition.
                         </p>
                       </div>
                     </li>
@@ -111,11 +107,10 @@ function About() {
 
                       <div className="about_list_content pl-5 pr-2">
                         <p>
-                          <strong>Exceptional Support:</strong> Our dedicated
-                          support team is always ready to assist you, providing
-                          ongoing maintenance, updates, and responsive
-                          assistance to ensure your IT systems run smoothly,
-                          giving you peace of mind.
+                          <strong>Exceptional Support:</strong> Our dedicated support team is always
+                          ready to assist you, providing ongoing maintenance, updates, and
+                          responsive assistance to ensure your IT systems run smoothly, giving you
+                          peace of mind.
                         </p>
                       </div>
                     </li>
@@ -134,11 +129,10 @@ function About() {
 
                       <div className="about_list_content pl-5 pr-2">
                         <p>
-                          <strong>Collaborative Approach:</strong> We believe in
-                          fostering strong partnerships with our clients,
-                          working closely together throughout the project
-                          lifecycle to ensure transparent communication,
-                          alignment of goals, and a successful outcome.
+                          <strong>Collaborative Approach:</strong> We believe in fostering strong
+                          partnerships with our clients, working closely together throughout the
+                          project lifecycle to ensure transparent communication, alignment of goals,
+                          and a successful outcome.
                         </p>
                       </div>
                     </li>
@@ -196,9 +190,9 @@ function About() {
                       Research
                     </h3>
                     <p className="mt-4">
-                      Gain valuable insights and understand user needs through
-                      thorough research, setting the foundation for informed
-                      decision-making and successful project outcomes.
+                      Gain valuable insights and understand user needs through thorough research,
+                      setting the foundation for informed decision-making and successful project
+                      outcomes.
                     </p>
                   </div>
                 </div>
@@ -240,9 +234,9 @@ function About() {
                       Prototype
                     </h3>
                     <p className="mt-4">
-                      Visualize your ideas and test concepts with interactive
-                      prototypes, allowing for early feedback and refinement to
-                      ensure a user-centric and intuitive final product
+                      Visualize your ideas and test concepts with interactive prototypes, allowing
+                      for early feedback and refinement to ensure a user-centric and intuitive final
+                      product
                     </p>
                   </div>
                 </div>
@@ -285,9 +279,9 @@ function About() {
                       Build
                     </h3>
                     <p className="mt-4">
-                      Bring your vision to life with our skilled development
-                      team, leveraging cutting-edge technologies and best
-                      practices to deliver a robust and scalable solution.
+                      Bring your vision to life with our skilled development team, leveraging
+                      cutting-edge technologies and best practices to deliver a robust and scalable
+                      solution.
                       {/* that meets your business objectives. */}
                     </p>
                   </div>
