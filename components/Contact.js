@@ -7,76 +7,120 @@ function Contact() {
         <section id="contact" className="contact_area relative pt-24 pb-24">
           <div className="contact_image flex items-center justify-end">
             <div className="image lg:pr-13">
-              <Image src={contactImage} alt="contact-image" />
+              <Image src={contactImage} alt="contact-image" className="contact-image" />
             </div>
           </div>
 
           <div className="container">
             <div className="row justify-end">
               <div className="w-full lg:w-1/2">
-                <div className="contact_wrapper mt-11">
-                  <div className="section_title pb-4">
-                    <h5 className="sub_title">Contact</h5>
-                    <h4 className="main_title">Get In Touch</h4>
-                  </div>
+                <div className="contact_wrapper mt-3">
+                  <div className="xl:col-span-5 lg:col-span-6 col-span-12">
+                    <div className="mini-title">Contact Us</div>
+                    <h4 className="column-title">
+                      Get In Touch
+                      <span className="shape-bg"> Today</span>
+                    </h4>
 
-                  <div className="contact_form">
-                    <form id="contact-form" action="" method="POST">
-                      <div className="row">
-                        <div className="w-full md:w-1/2">
-                          <div className="mx-3">
-                            <div className="single_form mt-8">
-                              <input
-                                name="name"
-                                id="name"
-                                type="text"
-                                placeholder="Name"
-                                className="w-full rounded-md py-4 px-6 border border-solid border-body-color"
+                    <ul className="list-item space-y-6 pt-8">
+                      <li className="flex">
+                        <div className="flex-none mr-6">
+                          <div className="">
+                            <svg
+                              width="56"
+                              height="56"
+                              viewBox="0 0 56 56"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <rect opacity="0.1" width="56" height="56" rx="4" fill="#FF7E84" />
+                              <path
+                                d="M35.5 24C36.8807 24 38 22.8807 38 21.5C38 20.1193 36.8807 19 35.5 19C34.1193 19 33 20.1193 33 21.5C33 22.8807 34.1193 24 35.5 24Z"
+                                fill="#FF7E84"
                               />
-                            </div>
-                          </div>
-                        </div>
-                        <div className="w-full md:w-1/2">
-                          <div className="mx-3">
-                            <div className="single_form mt-8">
-                              <input
-                                name="email"
-                                id="email"
-                                type="email"
-                                placeholder="Email"
-                                className="w-full rounded-md py-4 px-6 border border-solid border-body-color"
+                              <path
+                                d="M35.5 24C36.8807 24 38 22.8807 38 21.5C38 20.1193 36.8807 19 35.5 19C34.1193 19 33 20.1193 33 21.5C33 22.8807 34.1193 24 35.5 24Z"
+                                fill="#FF7E84"
                               />
-                            </div>
+                              <path
+                                d="M36.72 25.31C36.02 25.53 35.25 25.57 34.45 25.37C33.11 25.02 32.02 23.95 31.65 22.61C31.47 21.96 31.46 21.32 31.57 20.74C31.7 20.1 31.25 19.5 30.61 19.5H23C20 19.5 18 21 18 24.5V31.5C18 35 20 36.5 23 36.5H33C36 36.5 38 35 38 31.5V26.26C38 25.6 37.36 25.1 36.72 25.31ZM31.52 27.15L30.34 28.09C29.68 28.62 28.84 28.88 28 28.88C27.16 28.88 26.31 28.62 25.66 28.09L22.53 25.59C22.21 25.33 22.16 24.85 22.41 24.53C22.67 24.21 23.14 24.15 23.46 24.41L26.59 26.91C27.35 27.52 28.64 27.52 29.4 26.91L30.58 25.97C30.9 25.71 31.38 25.76 31.63 26.09C31.89 26.41 31.84 26.89 31.52 27.15Z"
+                                fill="#FF7E84"
+                              />
+                            </svg>
                           </div>
                         </div>
-                        <div className="w-full">
-                          <div className="mx-3">
-                            <div className="single_form mt-8">
-                              <textarea
-                                name="message"
-                                id="message"
-                                placeholder="Message"
-                                rows="5"
-                                className="w-full rounded-md py-4 px-6 border border-solid border-body-color resize-none"
-                              ></textarea>
-                            </div>
+                        <div className="flex-1">
+                          <h4 className="lg:text-xl text-lg mb-1">Email-Us :</h4>
+                          <div>twitesoft@gmail.com</div>
+                        </div>
+                      </li>
+                      <li className="flex">
+                        <div className="flex-none mr-6">
+                          <div className="">
+                            <svg
+                              width="56"
+                              height="56"
+                              viewBox="0 0 56 56"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <rect opacity="0.1" width="56" height="56" rx="4" fill="#30BEAD" />
+                              <path
+                                d="M33.62 26.7496C33.19 26.7496 32.85 26.3996 32.85 25.9796C32.85 25.6096 32.48 24.8396 31.86 24.1696C31.25 23.5196 30.58 23.1396 30.02 23.1396C29.59 23.1396 29.25 22.7896 29.25 22.3696C29.25 21.9496 29.6 21.5996 30.02 21.5996C31.02 21.5996 32.07 22.1396 32.99 23.1096C33.85 24.0196 34.4 25.1496 34.4 25.9696C34.4 26.3996 34.05 26.7496 33.62 26.7496Z"
+                                fill="#30BEAD"
+                              />
+                              <path
+                                d="M37.2278 26.75C36.7978 26.75 36.4578 26.4 36.4578 25.98C36.4578 22.43 33.5678 19.55 30.0278 19.55C29.5978 19.55 29.2578 19.2 29.2578 18.78C29.2578 18.36 29.5978 18 30.0178 18C34.4178 18 37.9978 21.58 37.9978 25.98C37.9978 26.4 37.6478 26.75 37.2278 26.75Z"
+                                fill="#30BEAD"
+                              />
+                              <path
+                                d="M27.05 30.95L25.2 32.8C24.81 33.19 24.19 33.19 23.79 32.81C23.68 32.7 23.57 32.6 23.46 32.49C22.43 31.45 21.5 30.36 20.67 29.22C19.85 28.08 19.19 26.94 18.71 25.81C18.24 24.67 18 23.58 18 22.54C18 21.86 18.12 21.21 18.36 20.61C18.6 20 18.98 19.44 19.51 18.94C20.15 18.31 20.85 18 21.59 18C21.87 18 22.15 18.06 22.4 18.18C22.66 18.3 22.89 18.48 23.07 18.74L25.39 22.01C25.57 22.26 25.7 22.49 25.79 22.71C25.88 22.92 25.93 23.13 25.93 23.32C25.93 23.56 25.86 23.8 25.72 24.03C25.59 24.26 25.4 24.5 25.16 24.74L24.4 25.53C24.29 25.64 24.24 25.77 24.24 25.93C24.24 26.01 24.25 26.08 24.27 26.16C24.3 26.24 24.33 26.3 24.35 26.36C24.53 26.69 24.84 27.12 25.28 27.64C25.73 28.16 26.21 28.69 26.73 29.22C26.83 29.32 26.94 29.42 27.04 29.52C27.44 29.91 27.45 30.55 27.05 30.95Z"
+                                fill="#30BEAD"
+                              />
+                              <path
+                                d="M37.9716 34.3291C37.9716 34.6091 37.9216 34.8991 37.8216 35.1791C37.7916 35.2591 37.7616 35.3391 37.7216 35.4191C37.5516 35.7791 37.3316 36.1191 37.0416 36.4391C36.5516 36.9791 36.0116 37.3691 35.4016 37.6191C35.3916 37.6191 35.3816 37.6291 35.3716 37.6291C34.7816 37.8691 34.1416 37.9991 33.4516 37.9991C32.4316 37.9991 31.3416 37.7591 30.1916 37.2691C29.0416 36.7791 27.8916 36.1191 26.7516 35.2891C26.3616 34.9991 25.9716 34.7091 25.6016 34.3991L28.8716 31.1291C29.1516 31.3391 29.4016 31.4991 29.6116 31.6091C29.6616 31.6291 29.7216 31.6591 29.7916 31.6891C29.8716 31.7191 29.9516 31.7291 30.0416 31.7291C30.2116 31.7291 30.3416 31.6691 30.4516 31.5591L31.2116 30.8091C31.4616 30.5591 31.7016 30.3691 31.9316 30.2491C32.1616 30.1091 32.3916 30.0391 32.6416 30.0391C32.8316 30.0391 33.0316 30.0791 33.2516 30.1691C33.4716 30.2591 33.7016 30.3891 33.9516 30.5591L37.2616 32.9091C37.5216 33.0891 37.7016 33.2991 37.8116 33.5491C37.9116 33.7991 37.9716 34.0491 37.9716 34.3291Z"
+                                fill="#30BEAD"
+                              />
+                            </svg>
                           </div>
                         </div>
-                        <p className="form-message mx-3"></p>
-                        <div className="w-full">
-                          <div className="mx-3">
-                            <div className="single_form mt-8">
-                              <button
-                                type="submit"
-                                className="main-btn contact-btn bg-[rgb(56,66,77)]"
-                              >
-                                Submit
-                              </button>
-                            </div>
+                        <div className="flex-1">
+                          <h4 className="lg:text-xl text-lg mb-1">Call Us:</h4>
+                          <div>+8801914-682468</div>
+                        </div>
+                      </li>
+                      <li className="flex">
+                        <div className="flex-none mr-6">
+                          <div className="">
+                            <svg
+                              width="56"
+                              height="56"
+                              viewBox="0 0 56 56"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <rect opacity="0.1" width="56" height="56" rx="4" fill="#FFBC1F" />
+                              <path
+                                d="M23.6291 19.5697C23.8084 19.4718 23.9991 19.6224 23.9991 19.8267V33.3825C23.9991 33.6058 23.8466 33.7946 23.6493 33.8988C23.6425 33.9024 23.6358 33.906 23.6291 33.9097L21.2791 35.2497C19.6391 36.1897 18.2891 35.4097 18.2891 33.5097V23.7797C18.2891 23.1497 18.7391 22.3697 19.2991 22.0497L23.6291 19.5697Z"
+                                fill="#FFBC1F"
+                              />
+                              <path
+                                d="M30.7219 22.1029C30.8922 22.1873 31 22.3609 31 22.551V35.7041C31 36.0726 30.615 36.3145 30.283 36.1546L26.033 34.107C25.86 34.0236 25.75 33.8485 25.75 33.6565V20.4462C25.75 20.0753 26.1396 19.8336 26.4719 19.9981L30.7219 22.1029Z"
+                                fill="#FFBC1F"
+                              />
+                              <path
+                                d="M38 22.4901V32.2201C38 32.8501 37.55 33.6301 36.99 33.9501L33.4986 35.951C33.1653 36.1421 32.75 35.9014 32.75 35.5172V22.3304C32.75 22.1509 32.8462 21.9851 33.0021 21.8961L35.01 20.7501C36.65 19.8101 38 20.5901 38 22.4901Z"
+                                fill="#FFBC1F"
+                              />
+                            </svg>
                           </div>
                         </div>
-                      </div>
-                    </form>
+                        <div className="flex-1">
+                          <h4 className="lg:text-xl text-lg mb-1">Office :</h4>
+                          <div>H# 469, R# 07, Avenue# 6, Mirpur-12 DOHS, Dhaka - 1216</div>
+                        </div>
+                      </li>
+                    </ul>
                   </div>
                 </div>
               </div>
