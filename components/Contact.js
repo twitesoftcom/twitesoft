@@ -4,10 +4,27 @@ function Contact() {
   return (
     <div>
       <>
-        <section id="contact" className="contact_area page_area relative pt-24 pb-24">
+        <section
+          id="contact"
+          className="contact_area page_area relative pt-24 pb-24"
+        >
+          <div className="row justify-center">
+            <div className="w-full lg:w-1/2">
+              <div className="section_title text-center pb-6">
+                <h4 className="main_title">
+                  Get In Touch
+                  <span className="shape-bg"> Today</span>
+                </h4>
+              </div>
+            </div>
+          </div>
           <div className="contact_image flex items-center justify-end">
-            <div className="image lg:pr-13">
-              <Image src={contactImage} alt="contact-image" className="contact-image" />
+            <div className="image lg:pr-13 mt-36">
+              <Image
+                src={contactImage}
+                alt="contact-image"
+                className="contact-image"
+              />
             </div>
           </div>
 
@@ -15,13 +32,9 @@ function Contact() {
             <div className="row justify-end">
               <div className="w-full lg:w-1/2">
                 <div className="contact_wrapper mt-3">
-                  <div className="xl:col-span-5 lg:col-span-6 col-span-12">
-                    <div className="mini-title">Contact Us</div>
-                    <h4 className="column-title">
-                      Get In Touch
-                      <span className="shape-bg"> Today</span>
-                    </h4>
-
+                  <div className="xl:col-span-5 lg:col-span-6 col-span-12 mb-36">
+                    <div className="mb-24"></div>
+                    <div className="mini-title">Contact Info</div>
                     <ul className="list-item space-y-6 pt-8">
                       <li className="flex">
                         <div className="flex-none mr-6">
@@ -33,7 +46,13 @@ function Contact() {
                               fill="none"
                               xmlns="http://www.w3.org/2000/svg"
                             >
-                              <rect opacity="0.1" width="56" height="56" rx="4" fill="#FF7E84" />
+                              <rect
+                                opacity="0.1"
+                                width="56"
+                                height="56"
+                                rx="4"
+                                fill="#FF7E84"
+                              />
                               <path
                                 d="M35.5 24C36.8807 24 38 22.8807 38 21.5C38 20.1193 36.8807 19 35.5 19C34.1193 19 33 20.1193 33 21.5C33 22.8807 34.1193 24 35.5 24Z"
                                 fill="#FF7E84"
@@ -50,7 +69,9 @@ function Contact() {
                           </div>
                         </div>
                         <div className="flex-1">
-                          <h4 className="lg:text-xl text-lg mb-1">Email-Us :</h4>
+                          <h4 className="lg:text-xl text-lg mb-1">
+                            Email-Us :
+                          </h4>
                           <div>twitesoft@gmail.com</div>
                         </div>
                       </li>
@@ -64,7 +85,13 @@ function Contact() {
                               fill="none"
                               xmlns="http://www.w3.org/2000/svg"
                             >
-                              <rect opacity="0.1" width="56" height="56" rx="4" fill="#30BEAD" />
+                              <rect
+                                opacity="0.1"
+                                width="56"
+                                height="56"
+                                rx="4"
+                                fill="#30BEAD"
+                              />
                               <path
                                 d="M33.62 26.7496C33.19 26.7496 32.85 26.3996 32.85 25.9796C32.85 25.6096 32.48 24.8396 31.86 24.1696C31.25 23.5196 30.58 23.1396 30.02 23.1396C29.59 23.1396 29.25 22.7896 29.25 22.3696C29.25 21.9496 29.6 21.5996 30.02 21.5996C31.02 21.5996 32.07 22.1396 32.99 23.1096C33.85 24.0196 34.4 25.1496 34.4 25.9696C34.4 26.3996 34.05 26.7496 33.62 26.7496Z"
                                 fill="#30BEAD"
@@ -86,7 +113,7 @@ function Contact() {
                         </div>
                         <div className="flex-1">
                           <h4 className="lg:text-xl text-lg mb-1">Call Us:</h4>
-                          <div>+8801914-682468</div>
+                          <div>+8801914682468</div>
                         </div>
                       </li>
                       <li className="flex">
@@ -99,7 +126,13 @@ function Contact() {
                               fill="none"
                               xmlns="http://www.w3.org/2000/svg"
                             >
-                              <rect opacity="0.1" width="56" height="56" rx="4" fill="#FFBC1F" />
+                              <rect
+                                opacity="0.1"
+                                width="56"
+                                height="56"
+                                rx="4"
+                                fill="#FFBC1F"
+                              />
                               <path
                                 d="M23.6291 19.5697C23.8084 19.4718 23.9991 19.6224 23.9991 19.8267V33.3825C23.9991 33.6058 23.8466 33.7946 23.6493 33.8988C23.6425 33.9024 23.6358 33.906 23.6291 33.9097L21.2791 35.2497C19.6391 36.1897 18.2891 35.4097 18.2891 33.5097V23.7797C18.2891 23.1497 18.7391 22.3697 19.2991 22.0497L23.6291 19.5697Z"
                                 fill="#FFBC1F"
@@ -117,7 +150,10 @@ function Contact() {
                         </div>
                         <div className="flex-1">
                           <h4 className="lg:text-xl text-lg mb-1">Office :</h4>
-                          <div>H# 469, R# 07, Avenue# 6, Mirpur-12 DOHS, Dhaka - 1216</div>
+                          <div>
+                            H# 469, R# 07, Avenue# 6, Mirpur-12 DOHS, Dhaka -
+                            1216
+                          </div>
                         </div>
                       </li>
                     </ul>

@@ -8,11 +8,11 @@ function Footer() {
     <div>
       <>
         <footer id="footer" className="footer_area bg-slate-900 relative z-10">
-          <div className="footer_widget pt-18 pb-120">
+          <div className="footer_widget pt-3 pb-12">
             <div className="container">
               <div className="row justify-center">
                 <div className="w-full md:w-1/2 lg:w-3/12">
-                  <div className="footer_about mt-13 mx-3">
+                  <div className="footer_about mt-10 mx-3">
                     <div className="footer_logo">
                       <Link href="#">
                         <Image
@@ -24,7 +24,7 @@ function Footer() {
                       </Link>
                     </div>
                     <div className="footer_content mt-8">
-                      <p className="text-slate-400/75">
+                      <p className="text-slate-500">
                         Our dedicated IT teams will give you the power of next
                         generation software development solutions to help your
                         business stand out.
@@ -34,15 +34,15 @@ function Footer() {
                 </div>
                 <div className="w-full md:w-1/2 lg:w-5/12">
                   <div className="footer_link_wrapper flex flex-wrap mx-3">
-                    <div className="footer_link w-1/2 md:pl-13 mt-13">
-                      <h2 className="footer_title text-xl font-semibold text-slate-400/75">
+                    <div className="footer_link w-1/2 md:pl-13 mt-10">
+                      <h2 className="footer_title text-xl font-semibold text-slate-500">
                         Quick Links
                       </h2>
                       <ul className="link pt-4">
                         <li>
                           <a
                             href="#"
-                            className="text-slate-400/75 mt-4 hover:text-[rgb(1,104,198)]"
+                            className="text-slate-500 mt-4 hover:text-[rgb(1,104,198)]"
                           >
                             Company
                           </a>
@@ -50,7 +50,7 @@ function Footer() {
                         <li>
                           <a
                             href="#"
-                            className="text-slate-400/75 mt-4 hover:text-[rgb(1,104,198)]"
+                            className="text-slate-500 mt-4 hover:text-[rgb(1,104,198)]"
                           >
                             Privacy Policy
                           </a>
@@ -58,22 +58,22 @@ function Footer() {
                         <li>
                           <a
                             href="#"
-                            className="text-slate-400/75 mt-4 hover:text-[rgb(1,104,198)]"
+                            className="text-slate-500 mt-4 hover:text-[rgb(1,104,198)]"
                           >
                             About
                           </a>
                         </li>
                       </ul>
                     </div>
-                    <div className="footer_link w-1/2 md:pl-13 mt-13">
-                      <h2 className="footer_title text-xl font-semibold text-slate-400/75">
+                    <div className="footer_link w-1/2 md:pl-13 mt-10">
+                      <h2 className="footer_title text-xl font-semibold text-slate-500">
                         Resources
                       </h2>
                       <ul className="link pt-4">
                         <li>
                           <a
                             href="#"
-                            className="text-slate-400/75 mt-4 hover:text-[rgb(1,104,198)]"
+                            className="text-slate-500 mt-4 hover:text-[rgb(1,104,198)]"
                           >
                             Support
                           </a>
@@ -81,7 +81,7 @@ function Footer() {
                         <li>
                           <a
                             href="#"
-                            className="text-slate-400/75 mt-4 hover:text-[rgb(1,104,198)]"
+                            className="text-slate-500 mt-4 hover:text-[rgb(1,104,198)]"
                           >
                             Contact
                           </a>
@@ -89,7 +89,7 @@ function Footer() {
                         <li>
                           <a
                             href="#"
-                            className="text-slate-400/75 mt-4 hover:text-[rgb(1,104,198)]"
+                            className="text-slate-500 mt-4 hover:text-[rgb(1,104,198)]"
                           >
                             Terms
                           </a>
@@ -99,18 +99,18 @@ function Footer() {
                   </div>
                 </div>
                 <div className="w-full md:w-2/3 lg:w-4/12">
-                  <div className="footer_subscribe mt-13 mx-3">
-                    <h2 className="footer_title text-xl font-semibold text-slate-400/75">
+                  <div className="footer_subscribe mt-10 mx-3">
+                    <h2 className="footer_title text-xl font-semibold text-slate-500">
                       Find Us
                     </h2>
                     <div className="subscribe_form mt-9 relative">
-                      <p className="text-slate-400/75 mt-4 ">
+                      <p className="text-slate-500 mt-4 ">
                         Email: twitesoft@gmail.com
                       </p>
-                      <p className="text-slate-400/75 mt-4 ">
+                      <p className="text-slate-500 mt-4 ">
                         Phone: +8801914-682468
                       </p>
-                      <p className="text-slate-400/75 mt-4 ">
+                      <p className="text-slate-500 mt-4 ">
                         Address: H# 469, R# 07, Avenue# 6, Mirpur-12 DOHS, Dhaka
                         - 1216
                       </p>
@@ -175,7 +175,7 @@ function Footer() {
                   </ul>
                 </div>
                 <div className="footer_copyright_content pt-4 text-center">
-                  <p className="text-slate-400/75 text-sm font-semibold">
+                  <p className="text-slate-500 text-sm font-semibold">
                     Copyright © 2023, TwiteSoft. All rights reserved.
                   </p>
                 </div>
