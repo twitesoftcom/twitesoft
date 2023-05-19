@@ -2,7 +2,10 @@ function Services() {
   return (
     <div>
       <>
-        <section id="services" className="services_area page_area bg-gray pt-24 pb-24">
+        <section
+          id="services"
+          className="services_area page_area bg-gray pt-24 pb-24"
+        >
           <div className="container">
             <div className="row justify-center">
               <div className="w-full lg:w-1/2">
@@ -51,8 +54,9 @@ function Services() {
                       Web Development
                     </h3>
                     <p className="mt-4">
-                      Unlock the full potential of your online presence with our expert web
-                      development services, tailored to your business needs.
+                      Unlock the full potential of your online presence with our
+                      expert web development services, tailored to your business
+                      needs.
                     </p>
                   </div>
                 </div>
@@ -97,8 +101,9 @@ function Services() {
                       Software Development
                     </h3>
                     <p className="mt-4">
-                      Experience transformative software solutions tailored to your business goals,
-                      delivered by our expert team of developers.
+                      Experience transformative software solutions tailored to
+                      your business goals, delivered by our expert team of
+                      developers.
                     </p>
                   </div>
                 </div>
@@ -142,8 +147,8 @@ function Services() {
                       Mobile Apps
                     </h3>
                     <p className="mt-4">
-                      Elevate your business reach and engage customers on the go with our innovative
-                      mobile app development solutions.
+                      Elevate your business reach and engage customers on the go
+                      with our innovative mobile app development solutions.
                     </p>
                   </div>
                 </div>
@@ -188,53 +193,8 @@ function Services() {
                       SEO Consultancy
                     </h3>
                     <p className="mt-4">
-                      Boost your online visibility and outrank competitors with our strategic SEO
-                      consultancy services.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="w-full sm:w-10/12 md:w-6/12 lg:w-4/12">
-                <div className="single_services text-center mt-8 mx-3">
-                  <div className="services_icon">
-                    <div className="service_svg">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                      >
-                        <path
-                          d="M22 4v16h-20v-16h20zm2-2h-24v20h24v-20zm-5 13.092v-6.184c.581-.207 1-.756 1-1.408 0-.828-.672-1.5-1.5-1.5-.652 0-1.201.419-1.408 1h-10.184c-.207-.581-.756-1-1.408-1-.828 0-1.5.672-1.5 1.5 0 .652.419 1.201 1 1.408v6.184c-.581.207-1 .756-1 1.408 0 .828.672 1.5 1.5 1.5.652 0 1.201-.419 1.408-1h10.184c.207.581.756 1 1.408 1 .828 0 1.5-.672 1.5-1.5 0-.652-.419-1.201-1-1.408zm-1.908.908h-10.184c-.15-.424-.484-.757-.908-.908v-6.184c.424-.151.757-.484.908-.908h10.184c.151.424.484.757.908.908v6.184c-.424.151-.758.484-.908.908zm-9.092-6c0-.552.448-1 1-1s1 .448 1 1-.448 1-1 1-1-.448-1-1zm8 5l-2.75-5-1.891 2.984-1.359-1.312-2 3.328h8z"
-                          className="service_svg_icon"
-                        />
-                      </svg>
-                    </div>
-                    <div className="main_icon">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="94"
-                        height="92"
-                        viewBox="0 0 94 92"
-                      >
-                        <path
-                          className="services_shape"
-                          id="Polygon_12"
-                          data-name="Polygon 12"
-                          d="M42.212,2.315a11,11,0,0,1,9.576,0l28.138,13.6a11,11,0,0,1,5.938,7.465L92.83,54.018A11,11,0,0,1,90.717,63.3L71.22,87.842A11,11,0,0,1,62.607,92H31.393a11,11,0,0,1-8.613-4.158L3.283,63.3A11,11,0,0,1,1.17,54.018L8.136,23.383a11,11,0,0,1,5.938-7.465Z"
-                        />
-                      </svg>
-                    </div>
-                  </div>
-
-                  <div className="services_content mt-5 xl:mt-10">
-                    <h3 className="services_title text-black font-semibold text-xl md:text-2xl lg:text-xl xl:text-3xl">
-                      Graphic Design
-                    </h3>
-                    <p className="mt-4">
-                      Capture attention and leave a lasting impression with our captivating and
-                      professionally crafted graphic design solutions.
+                      Boost your online visibility and outrank competitors with
+                      our strategic SEO consultancy services.
                     </p>
                   </div>
                 </div>
@@ -278,8 +238,54 @@ function Services() {
                       Business Consultancy
                     </h3>
                     <p className="mt-4">
-                      Navigate the complex world of technology with confidence through our
-                      comprehensive IT consultancy services.
+                      Navigate the complex world of technology with confidence
+                      through our comprehensive IT consultancy services.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="w-full sm:w-10/12 md:w-6/12 lg:w-4/12">
+                <div className="single_services text-center mt-8 mx-3">
+                  <div className="services_icon">
+                    <div className="service_svg">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M22 4v16h-20v-16h20zm2-2h-24v20h24v-20zm-5 13.092v-6.184c.581-.207 1-.756 1-1.408 0-.828-.672-1.5-1.5-1.5-.652 0-1.201.419-1.408 1h-10.184c-.207-.581-.756-1-1.408-1-.828 0-1.5.672-1.5 1.5 0 .652.419 1.201 1 1.408v6.184c-.581.207-1 .756-1 1.408 0 .828.672 1.5 1.5 1.5.652 0 1.201-.419 1.408-1h10.184c.207.581.756 1 1.408 1 .828 0 1.5-.672 1.5-1.5 0-.652-.419-1.201-1-1.408zm-1.908.908h-10.184c-.15-.424-.484-.757-.908-.908v-6.184c.424-.151.757-.484.908-.908h10.184c.151.424.484.757.908.908v6.184c-.424.151-.758.484-.908.908zm-9.092-6c0-.552.448-1 1-1s1 .448 1 1-.448 1-1 1-1-.448-1-1zm8 5l-2.75-5-1.891 2.984-1.359-1.312-2 3.328h8z"
+                          className="service_svg_icon"
+                        />
+                      </svg>
+                    </div>
+                    <div className="main_icon">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="94"
+                        height="92"
+                        viewBox="0 0 94 92"
+                      >
+                        <path
+                          className="services_shape"
+                          id="Polygon_12"
+                          data-name="Polygon 12"
+                          d="M42.212,2.315a11,11,0,0,1,9.576,0l28.138,13.6a11,11,0,0,1,5.938,7.465L92.83,54.018A11,11,0,0,1,90.717,63.3L71.22,87.842A11,11,0,0,1,62.607,92H31.393a11,11,0,0,1-8.613-4.158L3.283,63.3A11,11,0,0,1,1.17,54.018L8.136,23.383a11,11,0,0,1,5.938-7.465Z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+
+                  <div className="services_content mt-5 xl:mt-10">
+                    <h3 className="services_title text-black font-semibold text-xl md:text-2xl lg:text-xl xl:text-3xl">
+                      Lead Generation
+                    </h3>
+                    <p className="mt-4">
+                      Fuel your business growth with our lead generation
+                      service, providing a steady stream of qualified prospects
+                      and potential customers for your products or services.
                     </p>
                   </div>
                 </div>
