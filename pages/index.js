@@ -7,6 +7,7 @@ import Services from "@/components/Services";
 // import Pricing from "@/components/Pricing";
 import Contact from "@/components/Contact";
 import Team from "@/components/Team";
+import Technologies from "@/components/Technologies";
 
 export default function index() {
   return (
@@ -24,6 +25,8 @@ export default function index() {
         <Services />
 
         <Projects />
+
+        <Technologies />
 
         <Team />
 

@@ -98,13 +98,27 @@
   position: relative;
 }
 
+/* Start CSS For technology_area */
+.technology_area {
+  background: linear-gradient(
+    90deg,
+    rgb(204 204 213) 0%,
+    rgb(211 207 207 / 76%) 0%,
+    rgb(225 239 234) 100%
+  );
+}
+.techlogy-img {
+  height: 40px;
+  width: 50px;
+}
+
 /* Start CSS For Pages */
 .page .page_area {
   padding: 150px 0 50px 0;
 }
 /* End CSS for Pages */
 .footer_area {
-  background: linear-gradient(90deg, rgba(211,237,231,1) 0%, rgba(247,239,239,1) 100%);
+  background: linear-gradient(90deg, rgba(211, 237, 231, 1) 0%, rgba(247, 239, 239, 1) 100%);
 }
 
 /*............. Navbar........  css */
