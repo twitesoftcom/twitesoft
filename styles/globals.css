@@ -100,12 +100,13 @@
 
 /* Start CSS For technology_area */
 .technology_area {
-  background: linear-gradient(
-    90deg,
-    rgb(204 204 213) 0%,
-    rgb(211 207 207 / 76%) 0%,
-    rgb(225 239 234) 100%
-  );
+  background: #fff;
+}
+.single_tech_item {
+  text-align: center;
+}
+.single_tech_item img {
+  margin: 0 auto;
 }
 .techlogy-img {
   height: 40px;

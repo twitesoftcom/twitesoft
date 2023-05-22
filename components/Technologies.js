@@ -49,140 +49,140 @@ function Technologies() {
               </div>
             </div>
             <div className="technology-wrapper">
-              <div className="grid grid-cols-4 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-10 gap-3">
-                <div className="single_tech_item mx-auto">
+              <div className="grid grid-cols-4 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-10 gap-5">
+                <div className="single_tech_item ">
                   <Image src={Python} className="techlogy-img" alt="logo" />
                   <p className="mt-2">Python</p>
                 </div>
-                <div className="single_tech_item mx-auto">
+                <div className="single_tech_item ">
                   <Image src={php} className="techlogy-img" alt="logo" />
                   <p className="mt-2"> PHP</p>
                 </div>
-                <div className="single_tech_item mx-auto">
+                <div className="single_tech_item ">
                   <Image src={Laravel} className="techlogy-img" alt="logo" />
                   <p className="mt-2">Laravel</p>
                 </div>
-                <div className="single_tech_item mx-auto">
+                <div className="single_tech_item ">
                   <Image src={Golang} className="techlogy-img" alt="logo" />
                   <p className="mt-2">Golang</p>
                 </div>
-                <div className="single_tech_item mx-auto">
+                <div className="single_tech_item ">
                   <Image src={Django} className="techlogy-img" alt="logo" />
                   <p className="mt-2">Django</p>
                 </div>
-                <div className="single_tech_item mx-auto">
+                <div className="single_tech_item ">
                   <Image src={Flask} className="techlogy-img" alt="logo" />
                   <p className="mt-2">Flask </p>
                 </div>
-                <div className="single_tech_item mx-auto">
+                <div className="single_tech_item ">
                   <Image src={SQL} className="techlogy-img" alt="logo" />
                   <p className="mt-2">SQL</p>
                 </div>
-                <div className="single_tech_item mx-auto">
+                <div className="single_tech_item ">
                   <Image src={MySQL} className="techlogy-img" alt="logo" />
                   <p className="mt-2">MySQL</p>
                 </div>
-                <div className="single_tech_item mx-auto">
+                <div className="single_tech_item ">
                   <Image src={PostgreSQL} className="techlogy-img" alt="logo" />
                   <p className="mt-2">PostgreSQL</p>
                 </div>
-                <div className="single_tech_item mx-auto">
+                <div className="single_tech_item ">
                   <Image src={MongoDB} className="techlogy-img" alt="logo" />
                   <p className="mt-2">MongoDB</p>
                 </div>
-                <div className="single_tech_item mx-auto">
+                <div className="single_tech_item ">
                   <Image src={Redis} className="techlogy-img" alt="logo" />
                   <p className="mt-2">Redis</p>
                 </div>
-                <div className="single_tech_item mx-auto">
+                <div className="single_tech_item ">
                   <Image src={GoogleCloud} className="techlogy-img" alt="logo" />
                   <p className="mt-2">Google Cloud </p>
                 </div>
-                <div className="single_tech_item mx-auto">
+                <div className="single_tech_item ">
                   <Image src={CloudStorage} className="techlogy-img" alt="logo" />
                   <p className="mt-2">Cloud Storage</p>
                 </div>
-                <div className="single_tech_item mx-auto">
+                <div className="single_tech_item ">
                   <Image src={Datastore} className="techlogy-img" alt="logo" />
                   <p className="mt-2">Datastore</p>
                 </div>
-                <div className="single_tech_item mx-auto">
+                <div className="single_tech_item ">
                   <Image src={CloudRun} className="techlogy-img" alt="logo" />
                   <p className="mt-2">Cloud Run</p>
                 </div>
-                <div className="single_tech_item mx-auto">
+                <div className="single_tech_item ">
                   <Image src={CloudFunction} className="techlogy-img" alt="logo" />
                   <p className="mt-2">Cloud Function</p>
                 </div>
-                <div className="single_tech_item mx-auto">
+                <div className="single_tech_item ">
                   <Image src={ApacheBeam} className="techlogy-img" alt="logo" />
                   <p className="mt-2">Apache Beam</p>
                 </div>
-                <div className="single_tech_item mx-auto">
+                <div className="single_tech_item ">
                   <Image src={Dataflow} className="techlogy-img" alt="logo" />
                   <p className="mt-2">Dataflow </p>
                 </div>
-                <div className="single_tech_item mx-auto">
+                <div className="single_tech_item ">
                   <Image src={BigQuery} className="techlogy-img" alt="logo" />
                   <p className="mt-2">BigQuery</p>
                 </div>
-                <div className="single_tech_item mx-auto">
+                <div className="single_tech_item ">
                   <Image src={HTML} className="techlogy-img" alt="logo" />
                   <p className="mt-2">HTML</p>
                 </div>
-                <div className="single_tech_item mx-auto">
+                <div className="single_tech_item ">
                   <Image src={CSS} className="techlogy-img" alt="logo" />
                   <p className="mt-2">CSS</p>
                 </div>
-                <div className="single_tech_item mx-auto">
+                <div className="single_tech_item ">
                   <Image src={Bootstrap} className="techlogy-img" alt="logo" />
                   <p className="mt-2">Bootstrap</p>
                 </div>
-                <div className="single_tech_item mx-auto">
+                <div className="single_tech_item ">
                   <Image src={tailwindcss} className="techlogy-img" alt="logo" />
                   <p className="mt-2">Tailwind CSS</p>
                 </div>
-                <div className="single_tech_item mx-auto">
+                <div className="single_tech_item ">
                   <Image src={AntDesign} className="techlogy-img" alt="logo" />
                   <p className="mt-2">Ant Design</p>
                 </div>
-                <div className="single_tech_item mx-auto">
+                <div className="single_tech_item ">
                   <Image src={JavaScript} className="techlogy-img" alt="logo" />
                   <p className="mt-2">JavaScript </p>
                 </div>
-                <div className="single_tech_item mx-auto">
+                <div className="single_tech_item ">
                   <Image src={VueJs} className="techlogy-img" alt="logo" />
                   <p className="mt-2">VueJs</p>
                 </div>
-                <div className="single_tech_item mx-auto">
+                <div className="single_tech_item ">
                   <Image src={React} className="techlogy-img" alt="logo" />
                   <p className="mt-2">React</p>
                 </div>
-                <div className="single_tech_item mx-auto">
+                <div className="single_tech_item ">
                   <Image src={NextJs} className="techlogy-img" alt="logo" />
                   <p className="mt-2">NextJs</p>
                 </div>
-                <div className="single_tech_item mx-auto">
+                <div className="single_tech_item ">
                   <Image src={jQuery} className="techlogy-img" alt="logo" />
                   <p className="mt-2">jQuery</p>
                 </div>
-                <div className="single_tech_item mx-auto">
+                <div className="single_tech_item ">
                   <Image src={Nginx} className="techlogy-img" alt="logo" />
                   <p className="mt-2">Nginx </p>
                 </div>
-                <div className="single_tech_item mx-auto">
+                <div className="single_tech_item ">
                   <Image src={Docker} className="techlogy-img" alt="logo" />
                   <p className="mt-2">Docker</p>
                 </div>
-                <div className="single_tech_item mx-auto">
+                <div className="single_tech_item ">
                   <Image src={Apache} className="techlogy-img" alt="logo" />
                   <p className="mt-2">Apache</p>
                 </div>
-                <div className="single_tech_item mx-auto">
+                <div className="single_tech_item ">
                   <Image src={Scrapy} className="techlogy-img" alt="logo" />
                   <p className="mt-2">Scrapy </p>
                 </div>
-                <div className="single_tech_item mx-auto">
+                <div className="single_tech_item ">
                   <Image src={RabbitMQ} className="techlogy-img" alt="logo" />
                   <p className="mt-2">RabbitMQ </p>
                 </div>
