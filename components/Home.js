@@ -98,9 +98,9 @@ function Home() {
                       to drive your digital success.
                     </p>
                     <div className="hero_btn mt-10">
-                      <a className="main-btn" href="#0">
+                      {/* <a className="main-btn" href="#0">
                         Get Started
-                      </a>
+                      </a> */}
                     </div>
                   </div>
                 </div>
